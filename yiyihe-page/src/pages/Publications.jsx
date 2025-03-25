@@ -122,73 +122,52 @@ const publications = [
 
 const Publications = () => {
 	return (
-		<div className="team-members">
+
+		<div className="publication-page">
+			<div className="team-members">
+				<div className="section-background">
+					<img
+						alt=""
+						src="/publications/Profile-Pic-Publications.jpg"
+						className="section-image"
+					/>
+
+					<div className="section-background-overlay"></div>
+
+					<Typography variant="h2" className="section-title">
+						Publications
+					</Typography>
+				</div>
 
 
-			{/* 
+				{/* <div className='contact-wrapper'> */}
+				<div className='publication-page-wrapper'>
+					{/* Reversed Ordered List */}
+					<ol className="publications-list" reversed>
+						{publications.map((pub) => (
+							<li key={pub.index} className="publication-item">
 
+								<p>
+									{pub.citation}
+									&nbsp;
+									{/* DOI Link (if available) */}
+									{pub.doi && (
+										<a href={pub.doi} target="_blank" rel="noopener noreferrer" className="publication-link">
+											[DOI]
+										</a>
+									)}
+									&nbsp;
 
-
-		<div className="team-members">
-			<div className="section-background">
-				<img
-					alt=""
-					src="/contact/Profile-Pic-Contact.jpg"
-					className="section-image"
-				/>
-				<div className="section-background-overlay"></div>
-				<Typography variant="h2" className="section-title">
-					Contact
-				</Typography>
-			</div>
-
-
-			<div className='contact-wrapper'>
-*/}
-
-			{/* Reversed Ordered List */}
-
-			<div className="section-background">
-				<img
-					alt=""
-					src="/publications/Profile-Pic-Publications.jpg"
-					className="section-image"
-				/>
-
-
-				<div className="section-background-overlay"></div>
-
-				<Typography variant="h2" className="section-title">
-					Publications
-				</Typography>
-			</div>
-
-			<div className='contact-wrapper'>
-				{/* Reversed Ordered List */}
-				<ol className="publications-list" reversed>
-					{publications.map((pub) => (
-						<li key={pub.index} className="publication-item">
-
-							<p>
-								{pub.citation}
-								&nbsp;
-								{/* DOI Link (if available) */}
-								{pub.doi && (
-									<a href={pub.doi} target="_blank" rel="noopener noreferrer" className="publication-link">
-										[DOI]
-									</a>
-								)}
-								&nbsp;
-
-								{/* Code Link (if available) */}
-								{pub.code && (
-									<a href={pub.code} target="_blank" rel="noopener noreferrer" className="publication-link">
-										[Code]
-									</a>
-								)}	</p>
-						</li>
-					))}
-				</ol>
+									{/* Code Link (if available) */}
+									{pub.code && (
+										<a href={pub.code} target="_blank" rel="noopener noreferrer" className="publication-link">
+											[Code]
+										</a>
+									)}	</p>
+							</li>
+						))}
+					</ol>
+				</div>
 			</div>
 		</div>
 	)

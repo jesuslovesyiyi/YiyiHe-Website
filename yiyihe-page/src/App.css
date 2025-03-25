@@ -614,7 +614,7 @@ h2 {
   /* gap: 4rem; */
 }
 
-/* === RESEARCH SECTION === */
+/* each research section === */
 .research-section {
   margin-bottom: 4rem;
   /* scroll-margin-top: 6rem; */
@@ -778,4 +778,23 @@ h2 {
    */
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+/* ===== publication page ===== */
+
+
+.publication-page-wrapper {
+  width: 62%;
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding-bottom: 4rem;
+}
+
+.publication-page-wrapper li {
+
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+
+
 }
