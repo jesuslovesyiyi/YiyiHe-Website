@@ -79,7 +79,6 @@ body {
 body {
   margin: 0;
   font-family: var(--body-font) !important;
-  /* line-height: 1.5; */
   line-height: 2;
 }
 
@@ -565,41 +564,33 @@ h2 {
 }
 
 /* ===== Research Section ===== */
-/* Research Page Layout */
-.research-page {
+
+
+
+/* .research-page {
   width: 62%;
-  max-width: 800px;
+  max-width: 60rem;
   margin: 2rem auto;
-}
+  padding-bottom: 4rem;
+} */
 
-.research {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+.research-page-wrapper {
 
-/* Research Wrapper */
-.research-wrapper {
-  Width: 62vw;
-  /* max-width: 60rem; */
-  padding: 1rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* width: 62%; */
+  max-width: 80vw;
+  margin: 2rem auto;
+  padding-bottom: 4rem;
 
 }
 
-/* Research Buttons (Now Scroll Links) */
+/* Navigation Buttons */
 .research-buttons {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-/* Rounded Rectangle Buttons */
 .research-buttons button {
   background: var(--white-hex);
   border: 0.1rem solid var(--black-hex);
@@ -611,62 +602,136 @@ h2 {
   outline: none;
 }
 
-/* Hover Effect */
 .research-buttons button:hover {
   background: var(--black-hex);
   color: var(--white-hex);
 }
 
-/* Research Grid for Sections */
+/* Grid of Research Sections */
 .research-grid {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 4rem; */
 }
 
-/* Individual Research Section */
+/* === RESEARCH SECTION === */
 .research-section {
-  display: flex;
-  align-items: flex-start;
-  padding: 2rem 0;
-  gap: 2rem;
-  width: 62vw;
-  /* center the section */
-  position: relative;
-  left: 19vw;
+  margin-bottom: 4rem;
+  /* scroll-margin-top: 6rem; */
 }
 
-/* Research Image */
-.research-image {
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
-  border-radius: 0.5rem;
-}
-
-/* Research Text */
-.research-text {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.research-text h3 {
-  margin: 0;
+/* Title aligned right above both columns */
+.research-title {
   font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
 }
 
-.research-text p {
-  margin: 0.5rem 0;
+/* Two-column layout under title */
+.research-columns {
+  display: flex;
+  gap: 2rem;
+  /* align-items: flex-start; */
+}
+
+/* Left Column: image, caption, papers */
+.research-left {
+  flex: 1;
+  max-width: 60%;
+}
+
+.research-image {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Related Papers */
+.research-papers {
+  margin-top: 1.25rem;
+}
+
+.research-papers h4 {
   font-size: 1rem;
-  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
-/* Smooth Scroll Anchor Adjustment */
-.research-section:target {
-  scroll-margin-top: 8rem;
-  /* Prevents overlap with fixed navbar */
+.research-papers ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.research-papers li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.research-papers a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.research-papers a:hover {
+  text-decoration: underline;
+}
+
+/* Right Column: Text content */
+.research-right {
+  flex: 2;
+}
+
+.research-description {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.research-description p {
+  margin-top: 0;
+}
+
+.research-code {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.research-code a {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.research-code a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .research-columns {
+    flex-direction: column;
+  }
+
+  .research-left,
+  .research-right {
+    max-width: 100%;
+  }
+
+  .research-title {
+    text-align: center;
+  }
+
+  .research-papers ul {
+    padding-left: 1rem;
+  }
 }
 
 /* Responsive Design */
@@ -674,11 +739,23 @@ h2 {
   .research-section {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+  }
+
+  .research-left,
+  .research-right {
+    max-width: 100%;
   }
 
   .research-image {
     margin-bottom: 1rem;
+  }
+
+  .research-papers {
+    text-align: center;
+  }
+
+  .research-papers ul {
+    padding-left: 1rem;
   }
 }
 
