@@ -577,7 +577,7 @@ h2 {
 .research-page-wrapper {
 
   /* width: 62%; */
-  max-width: 80vw;
+  max-width: 62vw;
   margin: 2rem auto;
   padding-bottom: 4rem;
 
@@ -772,7 +772,7 @@ h2 {
 }
 
 /* ===== News ===== */
-.news-item {
+.news {
   align-items: flex-start;
   /* padding: 1rem 0;
    */

@@ -16,13 +16,13 @@ const images = [
 const Hero = () => {
 	const [currentIndex, setCurrentIndex] = useState(0)
 
-	// Auto-switch images every 5 seconds
+	// Auto-switch images every 2 seconds
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
-		}, 9000)
+		}, 4000)
 
-		return () => clearInterval(interval) // Cleanup on unmount
+		return () => clearInterval(interval)
 	}, [])
 
 	// Change image on scroll
