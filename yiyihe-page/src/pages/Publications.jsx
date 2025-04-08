@@ -126,15 +126,14 @@ const Publications = () => {
 		<div className="publication-page">
 			<div className="team-members">
 				{/* Hero Section */}
-				<div className="section-background">
-					<img alt="" src="publications/Profile-Pic-Publications.jpg"
+				<div className="publication-section-background">
+					<img alt="" src="/publications/Profile-Pic-Publications.jpg"
 						className="section-image" />
 					<div className="section-background-overlay"></div>
 					<Typography variant="h2" className="section-title">Publications</Typography>
 				</div>
 
 
-				{/* <div className='contact-wrapper'> */}
 				<div className='publication-page-wrapper'>
 					{/* Reversed Ordered List */}
 					<ol className="publications-list" reversed>

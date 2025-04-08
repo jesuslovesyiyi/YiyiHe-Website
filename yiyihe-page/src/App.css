@@ -446,7 +446,6 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  /* Optional: Dark overlay */
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -515,25 +514,63 @@ h2 {
   align-items: center;
 }
 
+.publication-section-background {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .publications h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-/* Wrapper for Publications */
-
-/* List of publications */
-
-.publications-wrapper {
-  padding: 1rem;
-  align-items: center;
-  width: 62vw;
+.publication-page-wrapper {
+  /* width: 62%;
+  max-width: 60rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center; */
+  width: 62%;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  /* push below hero image */
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   position: relative;
-  left: 19vw;
+  z-index: 1;
 }
 
+.publication-page-wrapper li {
+
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+
+}
+
+.publications-list {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  width: 100%;
+}
+
+.publication-item {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
 
 .teaching-grid {
   display: flex;
@@ -778,22 +815,4 @@ h2 {
    */
   margin-top: 1rem;
   font-size: 1rem;
-}
-
-/* ===== publication page ===== */
-
-
-.publication-page-wrapper {
-  width: 62%;
-  max-width: 60rem;
-  margin: 2rem auto;
-  padding-bottom: 4rem;
-}
-
-.publication-page-wrapper li {
-
-  font-size: 1rem;
-  line-height: 2;
-  margin-bottom: 1rem;
-
 }
