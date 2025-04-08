@@ -530,12 +530,7 @@ h2 {
 }
 
 .publication-page-wrapper {
-  /* width: 62%;
-  max-width: 60rem;
-  margin: 2rem auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center; */
+
   width: 62%;
   max-width: 60rem;
   margin: 0 auto;
@@ -602,7 +597,151 @@ h2 {
 
 /* ===== Research Section ===== */
 
+/* ===== Research TOC Sidebar ===== */
+.research-toc {
+  position: sticky;
+  top: 6rem;
+  align-self: flex-start;
+  min-width: 200px;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  font-size: 0.95rem;
+}
 
+.research-toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-toc li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: var(--black-hex);
+  transition: color 0.3s ease;
+}
+
+.research-toc li:hover {
+  color: var(--secondary-color);
+}
+
+.research-toc li.active {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/* ===== Research Layout with TOC ===== */
+.research-page-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding: 0 2rem;
+}
+
+/* Research Grid */
+.research-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Research Section */
+.research-section {
+  scroll-margin-top: 6rem;
+}
+
+.research-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+/* Columns */
+.research-columns {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.research-left {
+  flex: 1;
+  max-width: 40%;
+}
+
+.research-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  color: #555;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.research-papers {
+  margin-top: 1.25rem;
+}
+
+.research-papers h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.research-papers ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.research-papers li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.research-right {
+  flex: 2;
+}
+
+.research-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.research-code a {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.research-code a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .research-page-wrapper {
+    flex-direction: column;
+  }
+
+  .research-toc {
+    display: none;
+  }
+
+  .research-columns {
+    flex-direction: column;
+  }
+
+  .research-left,
+  .research-right {
+    max-width: 100%;
+  }
+}
 
 /* .research-page {
   width: 62%;
@@ -614,7 +753,8 @@ h2 {
 .research-page-wrapper {
 
   /* width: 62%; */
-  max-width: 62vw;
+  /* max-width: 62vw;  */
+  max-width: 80vw;
   margin: 2rem auto;
   padding-bottom: 4rem;
 

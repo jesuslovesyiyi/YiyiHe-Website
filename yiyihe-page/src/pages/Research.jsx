@@ -1,5 +1,5 @@
 
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import '../App.css'
 import { Typography } from '@mui/material'
 
@@ -53,19 +53,48 @@ const researchAreas = [
 
 // Define refs for each section (hooks must be at top-level)
 const Research = () => {
-	const climateRef = useRef(null)
-	const networkRef = useRef(null)
-	const mlRef = useRef(null)
+	const [activeId, setActiveId] = useState(null)
 
-	const sectionRefs = {
-		climateResilience: climateRef,
-		networkScience: networkRef,
-		machineLearning: mlRef
+	// Dynamically create refs for each section
+	const sectionRefs = useRef({})
+	useEffect(() => {
+		researchAreas.forEach(area => {
+			if (!sectionRefs.current[area.id]) {
+				sectionRefs.current[area.id] = React.createRef()
+			}
+		})
+	}, [])
+
+	// Scroll to section on TOC click
+	const scrollToSection = (id) => {
+		const ref = sectionRefs.current[id]
+		if (ref?.current) {
+			ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+		}
 	}
 
-	const scrollToSection = (ref) => {
-		ref.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-	}
+	// Observe scroll position to highlight active TOC item
+	useEffect(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						setActiveId(entry.target.id)
+					}
+				})
+			},
+			{
+				rootMargin: '0px 0px -60% 0px',
+				threshold: 0
+			}
+		)
+
+		Object.entries(sectionRefs.current).forEach(([id, ref]) => {
+			if (ref.current) observer.observe(ref.current)
+		})
+
+		return () => observer.disconnect()
+	}, [])
 
 	return (
 		<div className="research-page">
@@ -76,37 +105,38 @@ const Research = () => {
 				<Typography variant="h2" className="section-title">Research</Typography>
 			</div>
 
+			<div className="research-page-wrapper">
+				{/* TOC Sidebar */}
+				<nav className="research-toc">
+					<ul>
+						{researchAreas.map(area => (
+							<li
+								key={area.id}
+								className={activeId === area.id ? 'active' : ''}
+								onClick={() => scrollToSection(area.id)}
+							>
+								{area.title}
+							</li>
+						))}
+					</ul>
+				</nav>
 
-			<div className='research-page-wrapper'>
-				{/* Buttons */}
-				<div className="research-buttons">
-					{researchAreas.map((area) => (
-						<button key={area.id} onClick={() => scrollToSection(sectionRefs[area.id])}>
-							{area.title}
-						</button>
-					))}
-				</div>
-
-				{/* Research Sections */}
+				{/* Research Content */}
 				<div className="research-grid">
-					{researchAreas.map((area) => (
+					{researchAreas.map(area => (
 						<div
 							key={area.id}
-							ref={sectionRefs[area.id]}
+							id={area.id}
+							ref={sectionRefs.current[area.id]}
 							className="research-section"
 						>
-							{/* Title aligned right */}
 							<h3 className="research-title">{area.title}</h3>
 
 							<div className="research-columns">
-								{/* Left Column */}
+								{/* Left */}
 								<div className="research-left">
 									<img src={area.image} alt={area.title} className="research-image" />
-
-									{area.imageSource && (
-										<p className="image-caption">{area.imageSource}</p>
-									)}
-
+									{area.imageSource && <p className="image-caption">{area.imageSource}</p>}
 									{area.relatedPapers?.length > 0 && (
 										<div className="research-papers">
 											<h4>Related papers:</h4>
@@ -123,7 +153,7 @@ const Research = () => {
 									)}
 								</div>
 
-								{/* Right Column */}
+								{/* Right */}
 								<div className="research-right">
 									<p className="research-description">{area.description}</p>
 									{area.additionalText && (
