@@ -36,7 +36,7 @@ const publications = [
 		doi: "https://ui.adsabs.harvard.edu/abs/2023AGUFM.A24E..01H/abstract"
 	},
 	{
-		indx: 62,
+		index: 62,
 		citation: "He, Y., & Radke, J. (2023). A network-based approach to assess the resilience of transportation systems to floods. Transportation Research Part D: Transport and Environment, 103, 103395.",
 		doi: "https://ui.adsabs.harvard.edu/abs/2023AGUFM.A24E..07W/abstract"
 	},
