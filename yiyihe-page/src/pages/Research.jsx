@@ -104,7 +104,8 @@ const Research = () => {
 		<div className="research-page">
 			{/* Hero Section */}
 			<div className="section-background">
-				<img alt="" src="/research/Profile-Pic-Research.jpg" className="section-image" />
+				<img alt=""
+					src="/research/thumbnail.jpeg" className="section-image" />
 				<div className="section-background-overlay"></div>
 				<Typography variant="h2" className="section-title">Research</Typography>
 			</div>
