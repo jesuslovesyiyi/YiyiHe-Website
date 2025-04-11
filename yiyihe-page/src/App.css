@@ -608,6 +608,25 @@ h2 {
   font-size: 0.95rem;
 }
 
+
+.research-toc li a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.research-toc li.active a {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.research-toc li a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+
 .research-toc ul {
   list-style: none;
   padding: 0;

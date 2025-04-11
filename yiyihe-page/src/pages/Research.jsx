@@ -90,7 +90,11 @@ const Research = () => {
 		)
 
 		Object.entries(sectionRefs.current).forEach(([id, ref]) => {
-			if (ref.current) observer.observe(ref.current)
+			if (ref.current) {
+
+				observer.observe(ref.current)
+
+			}
 		})
 
 		return () => observer.disconnect()
@@ -110,12 +114,16 @@ const Research = () => {
 				<nav className="research-toc">
 					<ul>
 						{researchAreas.map(area => (
-							<li
-								key={area.id}
-								className={activeId === area.id ? 'active' : ''}
-								onClick={() => scrollToSection(area.id)}
-							>
-								{area.title}
+							<li key={area.id} className={activeId === area.id ? 'active' : ''}>
+								<a
+									href={`#${area.id}`}
+									onClick={(e) => {
+										e.preventDefault()
+										scrollToSection(area.id)
+									}}
+								>
+									{area.title}
+								</a>
 							</li>
 						))}
 					</ul>
