@@ -115,7 +115,9 @@ const Research = () => {
 				<nav className="research-toc">
 					<ul>
 						{researchAreas.map(area => (
-							<li key={area.id} className={activeId === area.id ? 'active' : ''}>
+							<li key={area.id}
+								className={activeId === area.id ?
+									'active' : ''}>
 								<a
 									href={`#${area.id}`}
 									onClick={(e) => {
@@ -134,7 +136,6 @@ const Research = () => {
 				<div className="research-grid">
 					{researchAreas.map(area => (
 						<div
-							key={area.id}
 							id={area.id}
 							ref={sectionRefs.current[area.id]}
 							className="research-section"
