@@ -19,7 +19,7 @@ const teamData = {
 			name: 'Yuhan Xu',
 			position: 'PhD student',
 			bio: 'Yuhan is pursuing her PhD in City and Regional Planning at Georgia Tech. Her research interests lie at the intersection of urban planning, transportation, public health, and data science. She is particularly interested in addressing urban weather extremes (e.g., heatwaves, flooding, wildfires) to help build resilient and equitable cities. Her previous work involves leveraging geospatial data analysis and advanced machine learning techniques to drive evidence-based solutions for sustainable urban development and environmental planning. Yuhan received her bachelor and master degrees in landscape architecture from Southeast University, China.Before joining Tech, she also worked as a research assistant in the Department of Urban Planning and Design at the University of Hong Kong.',
-			image: '/team-member/taraliu.jpg',
+			image: '/team-member/yuhan.jpg',
 			linkedin: 'https://www.linkedin.com/in/yuhan-xu-0127b5314/',
 			github: 'https://github.com/Sealxuyh',
 			website: 'http://www.yuhanxu.top/'
