@@ -623,7 +623,7 @@ h2 {
 
 .research-toc li a:hover {
   color: var(--secondary-color);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 
