@@ -16,7 +16,7 @@ const images = [
 const Hero = () => {
 	const [currentIndex, setCurrentIndex] = useState(0)
 
-	// Auto-switch images every 2 seconds
+	// Auto-switch images every 4 seconds
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
@@ -25,18 +25,9 @@ const Hero = () => {
 		return () => clearInterval(interval)
 	}, [])
 
-	// Change image on scroll
-	// const handleScroll = (event) => {
-	// 	if (event.deltaY > 0) {
-	// 		setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
-	// 	} else {
-	// 		setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
-	// 	}
-	// }
 
 	return (
 		<Box className="hero"
-		// onWheel={handleScroll}
 		>
 			{/* Image Wrapper */}
 			<div className="hero-image-container">

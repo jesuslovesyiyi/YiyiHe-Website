@@ -129,7 +129,6 @@ const Publications = () => {
 				<div className="publication-section-background">
 					<img alt=""
 						src="/research/Profile-Pic-Research.jpg"
-						// src="/publications/Profile-Pic-Publications.jpg"
 						className="section-image" />
 					<div className="section-background-overlay"></div>
 					<Typography variant="h2" className="section-title">Publications</Typography>
