@@ -16,6 +16,15 @@ const teamData = {
 	],
 	currentMembers: [
 		{
+			name: 'Yuhan Xu',
+			position: 'PhD student',
+			bio: 'Yuhan is pursuing her PhD in City and Regional Planning at Georgia Tech. Her research interests lie at the intersection of urban planning, transportation, public health, and data science. She is particularly interested in addressing urban weather extremes (e.g., heatwaves, flooding, wildfires) to help build resilient and equitable cities. Her previous work involves leveraging geospatial data analysis and advanced machine learning techniques to drive evidence-based solutions for sustainable urban development and environmental planning. Yuhan received her bachelor and master degrees in landscape architecture from Southeast University, China.Before joining Tech, she also worked as a research assistant in the Department of Urban Planning and Design at the University of Hong Kong.',
+			image: '/team-member/taraliu.jpg',
+			linkedin: 'https://www.linkedin.com/in/yuhan-xu-0127b5314/',
+			github: 'https://github.com/Sealxuyh',
+			website: 'http://www.yuhanxu.top/'
+		},
+		{
 			name: 'Tara Liu',
 			position: 'Graduate Research Assistant',
 			bio: 'Tara(they/their) is a master student in CSE and an aspiring data scientist. They are interested in empowering the marginalized communities with technology and have 10+ industry experience. They enjoy nature and metal music in free time. Fun fact: Taco cat spelled backward is taco cat.',
@@ -87,7 +96,10 @@ const TeamMember = ({ name, position, bio, image, linkedin, github, website }) =
 }
 
 const TeamSection = ({ title, members }) => {
-	if (members.length === 0) return null // Don't render empty sections
+	if (members.length === 0) {
+
+		return null // Don't render empty sections
+	}
 
 	return (
 		<div className="team-section">
