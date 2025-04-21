@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import '../App.css'
 import { Typography } from '@mui/material'
 
-const ResearchImageSwitcher = ({ image, interval = 5000, alt, className }) => {
+const ResearchImageSwitcher = ({ image, interval = 2000, alt, className }) => {
 	const [currentIndex, setCurrentIndex] = useState(0)
 
 	useEffect(() => {
@@ -26,7 +26,15 @@ const researchAreas = [
 	{
 		id: 'climateResilience',
 		title: "Climate Resilience",
-		image: ["/research/solar_gallery_image.png"],
+		image: [
+			"/research/solar_gallery_image.png",
+			'/research/GRR_1.png',
+			'/research/GRR_2.png',
+			'/research/GRR_3.png',
+			'/research/GRR_4.png',
+			'/research/GRR_5.png',
+
+		],
 		imageSource: 'Image source: NASA Earth Observatory image by Jesse Allen, using Landsat data from the U.S. Geological Survey',
 		description: ' A major open question affecting future sea levels is whether meltwater- driven fracturing on ice shelves will significantly impact the future loss of the Antarctic Ice Sheet.Atmospheric warming threatens to accelerate the retreat of the Antarctic Ice Sheet by increasing surface melting and facilitating hydrofracturing, where meltwater flows into and enlarges fractures on ice shelves, potentially triggering ice - shelf collapse and acceleration of sea - level rise.Here we used an innovative combination of theory and deep - learning to develop the stability diagram for Antarctic fractures.We find that large portions of Antarctic ice shelves will be energetically favorable to unstable hydrofracture, and the collapse of these regions would trigger significant acceleration of ice flow.',
 		additionalText:
@@ -63,7 +71,11 @@ const researchAreas = [
 	{
 		id: 'machineLearning',
 		title: 'Machine Learning',
-		image: ['/research/machinelearning.jpg'],
+		image: [
+			'/research/machinelearning.jpg',
+			'/research/graph_gallery_image.png',
+			'/research/GRR_1.png',
+		],
 		imageSource: '',
 		description:
 			'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
