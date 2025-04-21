@@ -115,7 +115,8 @@ const Research = () => {
 				<nav className="research-toc">
 					<ul>
 						{researchAreas.map(area => (
-							<li key={area.id}
+							<li
+								id={area.id}
 								className={activeId === area.id ?
 									'active' : ''}>
 								<a
