@@ -686,7 +686,7 @@ h2 {
 
 .research-left {
   flex: 1;
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .research-image {
@@ -723,7 +723,7 @@ h2 {
 }
 
 .research-right {
-  flex: 2;
+  flex: 1;
 }
 
 .research-description {
@@ -832,7 +832,7 @@ h2 {
 
 /* Left Column: image, caption, papers */
 .research-left {
-  flex: 1;
+  flex: 2;
   max-width: 60%;
   line-height: 1.6;
 }

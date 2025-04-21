@@ -9,7 +9,7 @@ const researchAreas = [
 		title: "Climate Resilience",
 		image: "/research/solar_gallery_image.png",
 		imageSource: 'Image source: NASA Earth Observatory image by Jesse Allen, using Landsat data from the U.S. Geological Survey',
-		description: 'hi! A major open question affecting future sea levels is whether meltwater- driven fracturing on ice shelves will significantly impact the future loss of the Antarctic Ice Sheet.Atmospheric warming threatens to accelerate the retreat of the Antarctic Ice Sheet by increasing surface melting and facilitating hydrofracturing, where meltwater flows into and enlarges fractures on ice shelves, potentially triggering ice - shelf collapse and acceleration of sea - level rise.Here we used an innovative combination of theory and deep - learning to develop the stability diagram for Antarctic fractures.We find that large portions of Antarctic ice shelves will be energetically favorable to unstable hydrofracture, and the collapse of these regions would trigger significant acceleration of ice flow.',
+		description: ' A major open question affecting future sea levels is whether meltwater- driven fracturing on ice shelves will significantly impact the future loss of the Antarctic Ice Sheet.Atmospheric warming threatens to accelerate the retreat of the Antarctic Ice Sheet by increasing surface melting and facilitating hydrofracturing, where meltwater flows into and enlarges fractures on ice shelves, potentially triggering ice - shelf collapse and acceleration of sea - level rise.Here we used an innovative combination of theory and deep - learning to develop the stability diagram for Antarctic fractures.We find that large portions of Antarctic ice shelves will be energetically favorable to unstable hydrofracture, and the collapse of these regions would trigger significant acceleration of ice flow.',
 		additionalText:
 			'Many unanswered questions are to be explored, such as the processes governing the catastrophic collapse of ice shelves, and how the complex rheology impacts the breaking of thin sheets of ice. In the future we hope to couple our new hydrofracture model with ice-sheet models to improve predictions of Antarctica\'s response to atmospheric warming and contributions to sea-level rise.',
 		relatedPapers: [
@@ -116,7 +116,8 @@ const Research = () => {
 					<ul>
 						{researchAreas.map(area => (
 							<li
-								id={area.id}
+								// id={area.id}
+								key={area.id}
 								className={activeId === area.id ?
 									'active' : ''}>
 								<a
@@ -147,7 +148,7 @@ const Research = () => {
 								{/* Left */}
 								<div className="research-left">
 									<img src={area.image} alt={area.title} className="research-image" />
-									{area.imageSource && <p className="image-caption">{area.imageSource}</p>}
+									{/* {area.imageSource && <p className="image-caption">{area.imageSource}</p>} */}
 									{area.relatedPapers?.length > 0 && (
 										<div className="research-papers">
 											<h4>Related papers:</h4>
