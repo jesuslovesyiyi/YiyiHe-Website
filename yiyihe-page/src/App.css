@@ -42,7 +42,8 @@
   --quaternary-color: #0E0E55;
   /* highlight color */
   --coral: #FF7F50;
-  --cool-grey: #CBCBCB;
+  --cool-grey: #9c9c9c;
+  --light-grey: #d8d8d8;
 }
 
 /* Ensure the entire app takes up full height */
@@ -324,21 +325,22 @@ h2 {
 }
 
 /* Individual Dot */
-.dot {
+/* .dot {
   width: 0.4rem;
   height: 0.4rem;
   border-radius: 50%;
   background-color: var(--cool-grey);
   cursor: pointer;
   transition: background-color 0.8s ease;
-}
+
+} */
 
 /* Active Dot */
-.dot.active {
-  background-color: white;
+/* .dot.active {
+  background-color: var(--cool-grey);
   width: 0.5rem;
   height: 0.5rem;
-}
+} */
 
 
 
@@ -847,16 +849,15 @@ h2 {
   width: 0.3rem;
   height: 0.3rem;
   border-radius: 50%;
-  background-color: var(--navy-blue);
+  background-color: var(--cool-grey);
   cursor: pointer;
   transition: background-color 0.3s ease;
-  /* border: 1px solid #fff; */
 }
 
 .dot.active {
   width: 0.3rem;
   height: 0.3rem;
-  background-color: var(--secondary-color);
+  background-color: var(--light-grey);
 }
 
 /* Responsive */
