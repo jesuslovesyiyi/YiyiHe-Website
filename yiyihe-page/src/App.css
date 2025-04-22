@@ -58,13 +58,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* Ensures full viewport height */
 }
 
-/* Main Content should expand */
 .main-content {
   flex: 1;
-  /* Pushes the footer to the bottom */
 }
 
 /* ===== Font Variables ===== */
@@ -159,6 +156,23 @@ a:hover {
 
 .navbar-container-wrapper {
   transition: padding 140ms ease-in-out !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-container.hidden {
+    top: 0 !important;
+    transition: none !important;
+    /* Optional: prevent jumpiness */
+  }
+
+  .navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: hsla(var(--darkAccent-hsl), 0.9);
+    /* more solid for mobile */
+    transition: none;
+  }
 }
 
 /* ===== Footer Styles ===== */
