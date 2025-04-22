@@ -11,11 +11,11 @@ const researchAreas = [
 		title: "Climate Resilience",
 		image: [
 			// "/research/solar_gallery_image.png",
-			'/research/GRR_01.png',
-			'/research/GRR_02.png',
-			'/research/GRR_03.png',
-			'/research/GRR_04.png',
-			'/research/GRR_05.png',
+			'/research/GRR_01.jpg',
+			'/research/GRR_02.jpg',
+			'/research/GRR_03.jpg',
+			'/research/GRR_04.jpg',
+			'/research/GRR_05.jpg',
 
 		],
 		imageSource: 'Image source: NASA Earth Observatory image by Jesse Allen, using Landsat data from the U.S. Geological Survey',
@@ -34,11 +34,11 @@ const researchAreas = [
 		id: 'networkScience',
 		title: 'Network Science',
 		image: [
-			'/research/GRR_01.png',
-			'/research/GRR_02.png',
-			'/research/GRR_03.png',
-			'/research/GRR_04.png',
-			'/research/GRR_05.png',
+			'/research/GRR_01.jpg',
+			'/research/GRR_02.jpg',
+			'/research/GRR_03.jpg',
+			'/research/GRR_04.jpg',
+			'/research/GRR_05.jpg',
 			// '/research/graph_gallery_image.png',
 		],
 		imageSource: '',
@@ -58,11 +58,11 @@ const researchAreas = [
 			// '/research/machinelearning.jpg',
 			// '/research/graph_gallery_image.png',
 			// '/research/GRR_1.png',
-			'/research/GRR_01.png',
-			'/research/GRR_02.png',
-			'/research/GRR_03.png',
-			'/research/GRR_04.png',
-			'/research/GRR_05.png',
+			'/research/GRR_01.jpg',
+			'/research/GRR_02.jpg',
+			'/research/GRR_03.jpg',
+			'/research/GRR_04.jpg',
+			'/research/GRR_05.jpg',
 		],
 		imageSource: '',
 		description:
@@ -178,7 +178,7 @@ const Research = () => {
 										image={area.image}
 										alt={area.title}
 										className="research-image"
-										interval={2000}
+										interval={4000}
 									/>
 
 									{/* {area.imageSource && <p className="image-caption">{area.imageSource}</p>} */}
