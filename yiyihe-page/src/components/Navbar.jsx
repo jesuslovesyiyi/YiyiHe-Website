@@ -5,7 +5,15 @@ import { AppBar, Toolbar, Button, Container } from '@mui/material';
 
 const Navbar = () => {
 
+
+
 	useEffect(() => {
+		const isMobile = window.innerWidth <= 768;
+		if (isMobile) {
+			return
+		}
+
+
 		let lastScrollTop = 0;
 		const navbar = document.querySelector(".navbar-container");
 
