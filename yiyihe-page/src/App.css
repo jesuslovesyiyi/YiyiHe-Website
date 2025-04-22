@@ -813,7 +813,7 @@ h2 {
 }
 
 .image-slider[data-index='3'] {
-  transform: translateX(-300%);
+  transform: translateX(-310%);
 }
 
 .image-slider[data-index='4'] {
