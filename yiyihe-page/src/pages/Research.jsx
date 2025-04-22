@@ -2,37 +2,20 @@
 import React, { useEffect, useRef, useState } from 'react'
 import '../App.css'
 import { Typography } from '@mui/material'
+import ImageSwitcher from '../components/ImageSwitcher'
 
-const ResearchImageSwitcher = ({ image, interval = 2000, alt, className }) => {
-	const [currentIndex, setCurrentIndex] = useState(0)
 
-	useEffect(() => {
-		const timer = setInterval(() => {
-			setCurrentIndex((prev) => (prev + 1) % image.length)
-		}, interval)
-
-		return () => clearInterval(timer)
-	}, [image, interval])
-
-	return (
-		<img
-			src={image[currentIndex]}
-			alt={alt}
-			className={`${className} fade-image`}
-		/>
-	)
-}
 const researchAreas = [
 	{
 		id: 'climateResilience',
 		title: "Climate Resilience",
 		image: [
-			"/research/solar_gallery_image.png",
-			'/research/GRR_1.png',
-			'/research/GRR_2.png',
-			'/research/GRR_3.png',
-			'/research/GRR_4.png',
-			'/research/GRR_5.png',
+			// "/research/solar_gallery_image.png",
+			'/research/GRR_01.png',
+			'/research/GRR_02.png',
+			'/research/GRR_03.png',
+			'/research/GRR_04.png',
+			'/research/GRR_05.png',
 
 		],
 		imageSource: 'Image source: NASA Earth Observatory image by Jesse Allen, using Landsat data from the U.S. Geological Survey',
@@ -51,11 +34,11 @@ const researchAreas = [
 		id: 'networkScience',
 		title: 'Network Science',
 		image: [
-			'/research/GRR_1.png',
-			'/research/GRR_2.png',
-			'/research/GRR_3.png',
-			'/research/GRR_4.png',
-			'/research/GRR_5.png',
+			'/research/GRR_01.png',
+			'/research/GRR_02.png',
+			'/research/GRR_03.png',
+			'/research/GRR_04.png',
+			'/research/GRR_05.png',
 			// '/research/graph_gallery_image.png',
 		],
 		imageSource: '',
@@ -72,9 +55,14 @@ const researchAreas = [
 		id: 'machineLearning',
 		title: 'Machine Learning',
 		image: [
-			'/research/machinelearning.jpg',
-			'/research/graph_gallery_image.png',
-			'/research/GRR_1.png',
+			// '/research/machinelearning.jpg',
+			// '/research/graph_gallery_image.png',
+			// '/research/GRR_1.png',
+			'/research/GRR_01.png',
+			'/research/GRR_02.png',
+			'/research/GRR_03.png',
+			'/research/GRR_04.png',
+			'/research/GRR_05.png',
 		],
 		imageSource: '',
 		description:
@@ -186,10 +174,11 @@ const Research = () => {
 								{/* Left */}
 								<div className="research-left">
 									{/* <img src={area.image} alt={area.title} className="research-image" /> */}
-									<ResearchImageSwitcher
+									<ImageSwitcher
 										image={area.image}
 										alt={area.title}
 										className="research-image"
+										interval={2000}
 									/>
 
 									{/* {area.imageSource && <p className="image-caption">{area.imageSource}</p>} */}
