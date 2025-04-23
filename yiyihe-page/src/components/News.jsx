@@ -19,6 +19,14 @@ const newsData = [
 		description: 'Assistant Professor Yiyi He appointed as faculty fellow to the Brook Byers Institute for Sustainable Systems (BBISS)',
 		link: 'https://research.gatech.edu/seven-appointed-bbiss-faculty-fellows'
 	},
+
+	{
+		title: 'Stanford Sustainability Accelerator Grant',
+		date: '2024/12/24',
+		description: 'Assistant Professor Yiyi He joined a Stanford-led team awarded a grant from the Stanford Sustainability Accelerator for their proposal, "Harnessing the Data Revolution to Mitigate Flood Impacts on Vulnerable Communities in Sub-Saharan Africa."',
+		link: 'https://news.stanford.edu/stories/2025/04/sustainability-accelerator-grants-climate-adaptation-planetary-intelligence?utm_content=httpsnewsstanfordedustories202504sustainabilityacceleratorgrantsclimateadaptationplanetaryintelligence&amp;utm_source=feedotter&amp;utm_medium=email&amp;utm_campaign=int-04-20-2025&amp;mkt_tok=NjYwLVRKQy05ODQAAAGZ92jp5YY7f8ZhPOLayMbpIyR6Ll9vEBq_2DT94Q5gTlGHp-5jhT3noT8ixsCTXkkJ36Ahzb2MNAa_zCXOwZ3le_qafLN5x551o_1il-U'
+	},
+
 	{
 		title: 'New Research Paper Published',
 		date: '2024/12/11',
