@@ -2,6 +2,12 @@ import React from 'react'
 
 const newsData = [
 	{
+		title: 'CURA Leadership Symposium',
+		date: '2025/04/08',
+		description: 'Assistant Professor Yiyi He joined the CURA Leadership Symposium as a discussant for Matthew Gonser, Climate Resilience Officer for Los Angeles County.',
+		link: 'https://resilience.research.gatech.edu/feature/translating-urban-resilience-lessons-cura-symposium'
+	},
+	{
 		title: 'Google Guest Lecture',
 		date: '2025/04/03',
 		description: 'Staff AI research scientist Hongxu Ma from Google DeepMind came to the GT campus and delivered a guest lecture on "The Rise of the Data Science Assistant: LLM Agents in Action".',
