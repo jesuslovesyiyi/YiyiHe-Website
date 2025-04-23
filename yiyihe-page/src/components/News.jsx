@@ -51,7 +51,7 @@ const News = () => {
 					>
 						<span className="news-date">{news.date}&nbsp;</span>
 						<span className="news-title">{news.description}&nbsp; </span>
-						<a href={news.link} target="_blank" rel="noopener noreferrer">Read More</a>
+						<a href={news.link} target="_blank" rel="noopener noreferrer">Read more</a>
 					</div>
 				))}
 			</div>
