@@ -5,7 +5,7 @@
 1. clone this project
 
 ```
-gh repo clone taraliu23/YiyiHe-Website
+gh repo clone jesuslovesyiyi/YiyiHe-Website
 ```
 
 2. Make sure npm is installed by checking `npm -v`. 
