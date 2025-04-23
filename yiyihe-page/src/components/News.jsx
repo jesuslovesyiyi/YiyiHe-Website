@@ -2,6 +2,12 @@ import React from 'react'
 
 const newsData = [
 	{
+		title: 'BBISS Faculty Fellow',
+		date: '2025/02/19',
+		description: 'Assistant Professor Yiyi He appointed as faculty fellow to the Brook Byers Institute for Sustainable Systems (BBISS)',
+		link: 'https://research.gatech.edu/seven-appointed-bbiss-faculty-fellows'
+	},
+	{
 		title: 'New Research Paper Published!',
 		date: '2024/12/11',
 		description: 'Our paper Assessing health care access during flooding in sub-saharan Africa is published in AGU24!',
