@@ -4,7 +4,7 @@ const newsData = [
 	{
 		title: 'Google Guest Lecture',
 		date: '2025/04/03',
-		description: 'Staff AI research scientist Hongxu Ma from Google DeepMind came to Atlanta and delivered a guest lecture on "The Rise of the Data Science Assistant: LLM Agents in Action".',
+		description: 'Staff AI research scientist Hongxu Ma from Google DeepMind came to the GT campus and delivered a guest lecture on "The Rise of the Data Science Assistant: LLM Agents in Action".',
 		link: 'https://www.notion.so/How-LLM-Agents-Are-Revolutionizing-Data-Science-Insights-from-Dr-Hongxu-Ma-s-Lecture-1d3a6d2c901280a89136e2ee7bc88a31?pvs=4'
 	},
 	{
