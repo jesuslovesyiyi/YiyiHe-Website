@@ -11,7 +11,7 @@ const newsData = [
 	{
 		title: 'Tara AI Safety Initiative',
 		date: '2025/04/04',
-		description: 'Tara Liu is accepted into the AI Safety Initiative (AISI) research program at Georgia Tech, where she is contributing to a research paper on AI interpretability..',
+		description: 'Tara Liu is accepted into the AI Safety Initiative (AISI) research program at Georgia Tech, where she is contributing to a research paper on AI interpretability.',
 		link: 'https://www.aisi.dev/'
 	},
 
