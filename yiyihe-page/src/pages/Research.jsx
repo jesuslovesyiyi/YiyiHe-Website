@@ -18,15 +18,16 @@ const researchAreas = [
 			'/research/GRR_05.jpg',
 
 		],
-		imageSource: 'Image source: NASA Earth Observatory image by Jesse Allen, using Landsat data from the U.S. Geological Survey',
-		description: ' A major open question affecting future sea levels is whether meltwater- driven fracturing on ice shelves will significantly impact the future loss of the Antarctic Ice Sheet.Atmospheric warming threatens to accelerate the retreat of the Antarctic Ice Sheet by increasing surface melting and facilitating hydrofracturing, where meltwater flows into and enlarges fractures on ice shelves, potentially triggering ice - shelf collapse and acceleration of sea - level rise.Here we used an innovative combination of theory and deep - learning to develop the stability diagram for Antarctic fractures.We find that large portions of Antarctic ice shelves will be energetically favorable to unstable hydrofracture, and the collapse of these regions would trigger significant acceleration of ice flow.',
+		imageSource: 'Image source: He et al',
+		description: 'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7\% of roads are submerged—but nearly 45\% of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
 		additionalText:
-			'Many unanswered questions are to be explored, such as the processes governing the catastrophic collapse of ice shelves, and how the complex rheology impacts the breaking of thin sheets of ice. In the future we hope to couple our new hydrofracture model with ice-sheet models to improve predictions of Antarctica\'s response to atmospheric warming and contributions to sea-level rise.',
+			'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
+		
 		relatedPapers: [
 			{
 				title:
-					'Lindbergh, S., He, Y., & Radke, J. (2024). Beyond carbon: Unveiling vulnerabilities of the transportation fuel system for climate resilience. Energy Research & Social Science, 114, 103585.',
-				link: 'https://www.sciencedirect.com/science/article/pii/S2214629624001762'
+					'He, Y. (2022). Mobility and resilience: A global assessment of flood impacts on road transportation networks.',
+				link: 'https://openknowledge.worldbank.org/entities/publication/e06c6db7-6b99-5d61-bd86-4878996569d9'
 			}
 		]
 	},
