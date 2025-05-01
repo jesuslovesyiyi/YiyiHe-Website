@@ -4,7 +4,6 @@ import { Box } from '@mui/material'
 const images = [
 	'/home/image0.jpg',
 	'/home/image1.jpg',
-	// '/home/image2.jpg',
 	'/home/image3.jpg',
 	// '/home/image4.jpg',
 	'/home/image5.jpg',
