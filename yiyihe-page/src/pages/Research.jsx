@@ -13,7 +13,7 @@ const researchAreas = [
 			{
 				image:
 					[
-						'/research/GRR_01.jpg',
+						'/research/GRR_01_small.jpg',
 						'/research/GRR_02.jpg',
 						'/research/GRR_03.jpg',
 						'/research/GRR_04.jpg',
@@ -31,7 +31,7 @@ const researchAreas = [
 			},
 			{
 				image: [
-					'/research/GRR_01.jpg',
+					'/research/GRR_01_small.jpg',
 					'/research/GRR_02.jpg',
 					'/research/GRR_03.jpg',
 					'/research/GRR_04.jpg',
