@@ -758,11 +758,7 @@ h2 {
   flex: 1;
 }
 
-.research-description {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
+
 
 .research-code a {
   color: var(--secondary-color);
@@ -980,8 +976,7 @@ h2 {
 }
 
 .research-description {
-  font-size: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .research-description p {
