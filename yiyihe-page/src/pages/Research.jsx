@@ -9,76 +9,114 @@ const researchAreas = [
 	{
 		id: 'climateResilience',
 		title: "Climate Resilience",
-		image: [
-			// "/research/solar_gallery_image.png",
-			'/research/GRR_01.jpg',
-			'/research/GRR_02.jpg',
-			'/research/GRR_03.jpg',
-			'/research/GRR_04.jpg',
-			'/research/GRR_05.jpg',
-
-		],
-		imageSource: 'Image source: He et al',
-		description: 'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7\% of roads are submerged—but nearly 45\% of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
-		additionalText:
-			'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
-
-		relatedPapers: [
+		contentBlocks: [
 			{
-				title:
-					'He, Y. (2022). Mobility and resilience: A global assessment of flood impacts on road transportation networks.',
-				link: 'https://openknowledge.worldbank.org/entities/publication/e06c6db7-6b99-5d61-bd86-4878996569d9'
-			}
+				image:
+					[
+						'/research/GRR_01.jpg',
+						'/research/GRR_02.jpg',
+						'/research/GRR_03.jpg',
+						'/research/GRR_04.jpg',
+						'/research/GRR_05.jpg',
+					],
+				description: 'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7 of roads are submerged—but nearly 45 of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
+				additionalText: 'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
+				relatedPapers:
+				{
+					title: 'He, Y. (2022). Mobility and resilience: A global assessment of flood impacts on road transportation networks.',
+					link: 'https://openknowledge.worldbank.org/entities/publication/e06c6db7-6b99-5d61-bd86-4878996569d9'
+				},
+			},
+			{
+				image: [
+					'/research/GRR_01.jpg',
+					'/research/GRR_02.jpg',
+					'/research/GRR_03.jpg',
+					'/research/GRR_04.jpg',
+					'/research/GRR_05.jpg',
+				],
+				description: 'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7 of roads are submerged—but nearly 45 of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
+				additionalText: 'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
+				relatedPapers:
+				{
+					title: 'He, Y. (2022). Mobility and resilience: A global assessment of flood impacts on road transportation networks.',
+					link: 'https://openknowledge.worldbank.org/entities/publication/e06c6db7-6b99-5d61-bd86-4878996569d9'
+				},
+			},
 		]
 	},
+
 	{
 		id: 'networkScience',
 		title: 'Network Science',
-		image: [
-			'/research/GRR_01.jpg',
-			'/research/GRR_02.jpg',
-			'/research/GRR_03.jpg',
-			'/research/GRR_04.jpg',
-			'/research/GRR_05.jpg',
-			// '/research/graph_gallery_image.png',
-		],
-		imageSource: '',
-		description:
-			'Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures. Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.s',
-		relatedPapers: [
+		contentBlocks: [
 			{
-				title: 'Chen, Z. U. O., Wang, R., Hong, Y., Zhou, Y., He, Y., & Gronewold, A. D. (2024). The influence of road network topology on street flooding in New York City—A social media data approach. Journal of Hydrology, 638, 131471.',
-				link: 'https://www.sciencedirect.com/science/article/pii/S0022169424008679'
-			}
-		]
+				image: [
+					'/research/GRR_01.jpg',
+					'/research/GRR_02.jpg',
+					'/research/GRR_03.jpg',
+					'/research/GRR_04.jpg',
+					'/research/GRR_05.jpg',
+				],
+				description:
+					'Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures. Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.s',
+				relatedPapers: [
+					{
+						title: 'Chen, Z. U. O., Wang, R., Hong, Y., Zhou, Y., He, Y., & Gronewold, A. D. (2024). The influence of road network topology on street flooding in New York City—A social media data approach. Journal of Hydrology, 638, 131471.',
+						link: 'https://www.sciencedirect.com/science/article/pii/S0022169424008679'
+					}
+				]
+			},
+		],
 	},
+
+
 	{
 		id: 'machineLearning',
 		title: 'Machine Learning',
-		image: [
-			// '/research/machinelearning.jpg',
-			// '/research/graph_gallery_image.png',
-			// '/research/GRR_1.png',
-			'/research/GRR_01.jpg',
-			'/research/GRR_02.jpg',
-			'/research/GRR_03.jpg',
-			'/research/GRR_04.jpg',
-			'/research/GRR_05.jpg',
-		],
-		imageSource: '',
-		description:
-			'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
-		// codeLink: 'https://github.com/example/urban-ml',
-		relatedPapers: [
+		contentBlocks: [
 			{
-				title: 'Salgado, A., He, Y., Radke, J., Ganguly, A. R., & Gonzalez, M. C. (2024). Dimension reduction approach for understanding resource-flow resilience to climate change. Communications Physics, 7(1), 192.',
-				link: 'https://www.nature.com/articles/s42005-024-01664-z'
-			}
+				image: [
+					'/research/GRR_01.jpg',
+					'/research/GRR_02.jpg',
+					'/research/GRR_03.jpg',
+					'/research/GRR_04.jpg',
+					'/research/GRR_05.jpg',
+				],
+				description:
+					'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
+				relatedPapers: [
+					{
+						title: 'Salgado, A., He, Y., Radke, J., Ganguly, A. R., & Gonzalez, M. C. (2024). Dimension reduction approach for understanding resource-flow resilience to climate change. Communications Physics, 7(1), 192.',
+						link: 'https://www.nature.com/articles/s42005-024-01664-z'
+					}
+				]
+			},
+			{
+				image: [
+					'/research/GRR_01.jpg',
+					'/research/GRR_02.jpg',
+					'/research/GRR_03.jpg',
+					'/research/GRR_04.jpg',
+					'/research/GRR_05.jpg',
+				],
+				description:
+					'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
+				relatedPapers: [
+					{
+						title: 'Salgado, A., He, Y., Radke, J., Ganguly, A. R., & Gonzalez, M. C. (2024). Dimension reduction approach for understanding resource-flow resilience to climate change. Communications Physics, 7(1), 192.',
+						link: 'https://www.nature.com/articles/s42005-024-01664-z'
+					}
+				]
+			},
+
 		]
-	}
+
+
+	},
 ]
 
-// Define refs for each section (hooks must be at top-level)
+
 const Research = () => {
 	const [activeId, setActiveId] = useState(null)
 
@@ -91,6 +129,8 @@ const Research = () => {
 			}
 		})
 	}, [])
+
+
 
 	// Scroll to section on TOC click
 	const scrollToSection = (id) => {
@@ -143,7 +183,6 @@ const Research = () => {
 					<ul>
 						{researchAreas.map(area => (
 							<li
-								// id={area.id}
 								key={area.id}
 								className={activeId === area.id ?
 									'active' : ''}>
@@ -163,60 +202,51 @@ const Research = () => {
 
 				{/* Research Content */}
 				<div className="research-grid">
-					{researchAreas.map(area => (
-						<div
+					{researchAreas.map((area) => (
+						<section
+							key={area.id}
 							id={area.id}
 							ref={sectionRefs.current[area.id]}
 							className="research-section"
 						>
 							<h3 className="research-title">{area.title}</h3>
+							{area.contentBlocks.map((block, i) => (
+								<div key={i} className="research-block">
+									<div className="research-left">
 
-							<div className="research-columns">
-								{/* Left */}
-								<div className="research-left">
-									{/* <img src={area.image} alt={area.title} className="research-image" /> */}
-									<ImageSwitcher
-										image={area.image}
-										alt={area.title}
-										className="research-image"
-										interval={4000}
-									/>
+										<ImageSwitcher
+											image={block.image}
+											alt={`${area.title} - ${i}`}
+										/>
 
-									{/* {area.imageSource && <p className="image-caption">{area.imageSource}</p>} */}
-									{area.relatedPapers?.length > 0 && (
-										<div className="research-papers">
-											<h4>Related papers:</h4>
-											<ul>
-												{area.relatedPapers.map((paper, i) => (
-													<li key={i}>
-														<a className='research-papers' href={paper.link} target="_blank" rel="noopener noreferrer">
-															{paper.title}
-														</a>
-													</li>
-												))}
-											</ul>
-										</div>
-									)}
+
+										{block.relatedPapers?.length > 0 && (
+											<div className="research-papers">
+												<h4>Related papers:</h4>
+												<ul>
+													{block.relatedPapers.map((paper, j) => (
+														<li key={j}>
+															<a href={paper.link} target="_blank" rel="noopener noreferrer">
+																{paper.title}
+															</a>
+														</li>
+													))}
+												</ul>
+											</div>
+										)}
+									</div>
+
+									<div className="research-right">
+										<p className="research-description">{block.description}</p>
+										{block.additionalText && (
+											<p className="research-description">{block.additionalText}</p>
+										)}
+									</div>
 								</div>
-
-								{/* Right */}
-								<div className="research-right">
-									<p className="research-description">{area.description}</p>
-									{area.additionalText && (
-										<p className="research-description">{area.additionalText}</p>
-									)}
-									{area.codeLink && (
-										<p className="research-code">
-											<strong>Code:</strong>{' '}
-											<a href={area.codeLink} target="_blank" rel="noopener noreferrer">
-												View on GitHub
-											</a>
-										</p>
-									)}
-								</div>
-							</div>
-						</div>
+							))}
+						</section>
 					))}
+
 				</div>
 			</div>
 		</div>
@@ -224,3 +254,4 @@ const Research = () => {
 }
 
 export default Research
+

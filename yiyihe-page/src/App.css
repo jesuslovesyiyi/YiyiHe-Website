@@ -690,6 +690,13 @@ h2 {
 }
 
 /* Research Section */
+.research-block {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: flex-start;
+}
+
 .research-section {
   scroll-margin-top: 6rem;
   margin-bottom: 4rem;
