@@ -13,11 +13,11 @@ const researchAreas = [
 			{
 				image:
 					[
-						'/research/GRR_01_small.jpg',
-						'/research/GRR_02.jpg',
-						'/research/GRR_03.jpg',
-						'/research/GRR_04.jpg',
-						'/research/GRR_05.jpg',
+						'/research/GRR_01_small.jpeg',
+						'/research/GRR_02_small.jpeg',
+						'/research/GRR_03_small.jpeg',
+						'/research/GRR_04_small.jpeg',
+						'/research/GRR_05_small.jpeg',
 					],
 				description: 'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7 of roads are submerged—but nearly 45 of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
 				additionalText: 'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
@@ -31,11 +31,11 @@ const researchAreas = [
 			},
 			{
 				image: [
-					'/research/GRR_01_small.jpg',
-					'/research/GRR_02.jpg',
-					'/research/GRR_03.jpg',
-					'/research/GRR_04.jpg',
-					'/research/GRR_05.jpg',
+					'/research/GRR_01_small.jpeg',
+					'/research/GRR_02_small.jpeg',
+					'/research/GRR_03_small.jpeg',
+					'/research/GRR_04_small.jpeg',
+					'/research/GRR_05_small.jpeg',
 				],
 				description: 'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7 of roads are submerged—but nearly 45 of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
 				additionalText: 'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
@@ -56,11 +56,11 @@ const researchAreas = [
 		contentBlocks: [
 			{
 				image: [
-					'/research/GRR_01.jpg',
-					'/research/GRR_02.jpg',
-					'/research/GRR_03.jpg',
-					'/research/GRR_04.jpg',
-					'/research/GRR_05.jpg',
+					'/research/GRR_01_small.jpeg',
+					'/research/GRR_02_small.jpeg',
+					'/research/GRR_03_small.jpeg',
+					'/research/GRR_04_small.jpeg',
+					'/research/GRR_05_small.jpeg',
 				],
 				description:
 					'Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures. Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.s',
@@ -81,11 +81,11 @@ const researchAreas = [
 		contentBlocks: [
 			{
 				image: [
-					'/research/GRR_01.jpg',
-					'/research/GRR_02.jpg',
-					'/research/GRR_03.jpg',
-					'/research/GRR_04.jpg',
-					'/research/GRR_05.jpg',
+					'/research/GRR_01_small.jpeg',
+					'/research/GRR_02_small.jpeg',
+					'/research/GRR_03_small.jpeg',
+					'/research/GRR_04_small.jpeg',
+					'/research/GRR_05_small.jpeg',
 				],
 				description:
 					'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
@@ -98,11 +98,11 @@ const researchAreas = [
 			},
 			{
 				image: [
-					'/research/GRR_01.jpg',
-					'/research/GRR_02.jpg',
-					'/research/GRR_03.jpg',
-					'/research/GRR_04.jpg',
-					'/research/GRR_05.jpg',
+					'/research/GRR_01_small.jpeg',
+					'/research/GRR_02_small.jpeg',
+					'/research/GRR_03_small.jpeg',
+					'/research/GRR_04_small.jpeg',
+					'/research/GRR_05_small.jpeg',
 				],
 				description:
 					'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
