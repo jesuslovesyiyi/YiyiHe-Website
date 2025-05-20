@@ -34,24 +34,24 @@ const researchAreas = [
 			},
 			{
 				image: [
-					'/research/GRR_01_small.jpeg',
-					'/research/GRR_02_small.jpeg',
-					'/research/GRR_03_small.jpeg',
-					'/research/GRR_04_small.jpeg',
-					'/research/GRR_05_small.jpeg',
+					'/research/Kinshasa_01.jpeg',
+					'/research/Kinshasa_02.jpeg',
+					'/research/Kinshasa_03.jpeg',
+					'/research/Kinshasa_04.jpeg',
+					'/research/Kinshasa_05.png',
 				],
 				description: [
 
-					'As climate change accelerates, cities around the world are facing growing threats from flooding—especially to critical infrastructure like road networks. This project provides the first globally consistent analysis of how floodwaters directly affect urban roads and how those impacts ripple through cities, disrupting mobility at scale. We analyzed over 14 million kilometers of roads across 2,500+ urban areas and simulated more than 44 million trips under ten different flood scenarios, from moderate (1-in-5-year) to extreme (1-in-1,000-year) events. Our modeling captures both direct road inundation and indirect disruptions, such as route failures, detours, and delays. Key findings show that even minor flooding can have major consequences. For example, in a typical 1-in-100-year flood, only 14.7 of roads are submerged—but nearly 45 of trips fail. We also identified ten global hotspot regions where clustered disruptions threaten large-scale mobility breakdowns.',
-					'The study highlights three core factors—exposure, network connectivity, and travel behavior—as the main drivers of disruption. These insights inform actionable strategies for improving urban resilience and guiding flood mitigation investments where they’re needed most.',
+					'Transportation networks underpin socioeconomic development by enabling the movement of goods and people. However, despite their frequency, little is known about how floods disrupt transportation systems in developing country cities. We collect an innovative dual-condition transit feed specification dataset, and combine it with a travel survey and high-resolution flood maps to examine how regular floods in Kinshasa impact transport services, job accessibility, and the associated economic opportunity costs from travel delays.',
+					'Our results show that flood disruptions cause increases in public transit headways, transit rerouting, decreases in travel speeds, which translate into travel delays and loss of job accessibility. This induces substantial economic costs to local commuters – about $1.2 million daily – and hinders the establishment of an integrated citywide labor market. In addition, we reveal sizeable socio-spatial heterogeneities, with clusters of low-income residents incurring a large share of the travel delays and identify critical network segments that should be prioritized for resilience interventions.',
 				],
 
 
 				relatedPapers:
 					[
 						{
-							title: 'He, Y. (2022). Mobility and resilience: A global assessment of flood impacts on road transportation networks.',
-							link: 'https://openknowledge.worldbank.org/entities/publication/e06c6db7-6b99-5d61-bd86-4878996569d9'
+							title: 'He, Y., Thies, S., Avner, P., & Rentschler, J. (2021). Flood impacts on urban transit and accessibility—A case study of Kinshasa. Transportation research part D: transport and environment, 96, 102889.',
+							link: 'https://www.sciencedirect.com/science/article/pii/S1361920921001905'
 						},
 					]
 			},
