@@ -64,6 +64,28 @@ const researchAreas = [
 		contentBlocks: [
 			{
 				image: [
+					'/research/DIM_01.jpeg',
+					'/research/DIM_02.jpeg',
+					'/research/DIM_03.jpeg',
+					'/research/DIM_04.jpeg',
+				],
+				description:
+					[
+						'Networked dynamics are essential for assessing the resilience of lifeline infrastructures. The dimension-reduction approach was designed as an efficient way to map the high-dimensional dynamics to a low-dimensional representation capturing system-level behavior while taking into consideration network structure. However, its application to socio-technical systems has not been considered yet.',
+						'Here, we extend the dimension-reduction approach to resource-flow dynamics in multiplex networks. We apply it to the San Francisco fuel transportation network, considering the flow between refineries, terminals and gas stations. We capture the aggregated dynamics between the facilities of each type and identify macroscopic conditions for the system to supply a given demand of fuel. By considering multiple sea level rise scenarios between 2020 and 2100, we address the impact of coastal flooding due to climate change on the maximum suppliable demand. Finally, we analyze the system’s transient response to production failures, investigating the temporary interruption in production and the duration it takes for complete demand satisfaction to become unachievable after the interruption.',
+					],
+
+
+
+				relatedPapers: [
+					{
+						title: 'Salgado, A., He, Y., Radke, J., Ganguly, A. R., & Gonzalez, M. C. (2024). Dimension reduction approach for understanding resource-flow resilience to climate change. Communications Physics, 7(1), 192.',
+						link: 'https://www.nature.com/articles/s42005-024-01664-z'
+					}
+				]
+			},
+			{
+				image: [
 					'/research/CEC_01.jpeg',
 					'/research/CEC_02.jpeg',
 					'/research/CEC_03.jpeg',
