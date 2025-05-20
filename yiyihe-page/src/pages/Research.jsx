@@ -95,40 +95,21 @@ const researchAreas = [
 		contentBlocks: [
 			{
 				image: [
-					'/research/GRR_01_small.jpeg',
-					'/research/GRR_02_small.jpeg',
-					'/research/GRR_03_small.jpeg',
-					'/research/GRR_04_small.jpeg',
-					'/research/GRR_05_small.jpeg',
+					'/research/Lightning_01.jpeg',
+					'/research/Lightning_02.jpeg',
+					'/research/Lightning_03.jpeg',
+					'/research/Lightning_04.jpeg',
 				],
 				description:
-					'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
-				relatedPapers: [
-					{
-						title: 'Salgado, A., He, Y., Radke, J., Ganguly, A. R., & Gonzalez, M. C. (2024). Dimension reduction approach for understanding resource-flow resilience to climate change. Communications Physics, 7(1), 192.',
-						link: 'https://www.nature.com/articles/s42005-024-01664-z'
-					}
-				]
-			},
-			{
-				image: [
-					'/research/GRR_01_small.jpeg',
-					'/research/GRR_02_small.jpeg',
-					'/research/GRR_03_small.jpeg',
-					'/research/GRR_04_small.jpeg',
-					'/research/GRR_05_small.jpeg',
+				[
+					'Lightning strikes pose a severe threat to the United States (US) National Airspace System (NAS). Although the US Federal Aviation Administration (FAA) implements lightning protection practices and procedures to protect personnel, electronic equipment, and structures within the NAS, many lightning-induced outages still occur. To date we found that most research on lightning-induced facility outages has focused on understanding the physical processes of lightning strike effects on aircraft and airport ramp operations. Very little research has been done on examining the overall patterns and characteristics of such hazards to aviation from a geo-spatial standpoint.',
+					'To bridge this gap, we analyze nationwide lightning strike spatiotemporal data and FAA airport facility outage records from 2009 through 2020 and apply innovative pattern recognition methods to identify key characteristics of lightning strike hazards. Our results uncover the complexities of lightning strike hazard impact patterns to NAS facilities, identifying five distinct typologies with climatological signatures critical to creating better hazard mitigation strategies.',
 				],
-				description:
-					[
 
-						'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities. The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.  ',
-						'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
-						'The provision of urban green spaces has been widely acknowledged to offer numerous benefits to individuals and communities.',
-					],
 				relatedPapers: [
 					{
-						title: 'Salgado, A., He, Y., Radke, J., Ganguly, A. R., & Gonzalez, M. C. (2024). Dimension reduction approach for understanding resource-flow resilience to climate change. Communications Physics, 7(1), 192.',
-						link: 'https://www.nature.com/articles/s42005-024-01664-z'
+						title: 'He, Y., Yue, X., Lindbergh, S., Gao, J., Graves, C., & Rakas, J. (2022). Dissecting lightning strike hazard impact patterns to National Airspace System facilities in the contiguous United States. Computers, Environment and Urban Systems, 91, 101735.',
+						link: 'https://www.sciencedirect.com/science/article/pii/S0198971521001423'
 					}
 				]
 			},
