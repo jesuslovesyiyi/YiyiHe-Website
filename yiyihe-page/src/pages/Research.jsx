@@ -64,25 +64,24 @@ const researchAreas = [
 		contentBlocks: [
 			{
 				image: [
-					'/research/GRR_01_small.jpeg',
-					'/research/GRR_02_small.jpeg',
-					'/research/GRR_03_small.jpeg',
-					'/research/GRR_04_small.jpeg',
-					'/research/GRR_05_small.jpeg',
+					'/research/CEC_01.jpeg',
+					'/research/CEC_02.jpeg',
+					'/research/CEC_03.jpeg',
+					'/research/CEC_04.jpeg',
+					'/research/CEC_05.jpeg',
 				],
 				description:
 					[
-
-						'Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures. Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures',
-						'Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures.Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures. Sea level rise and storm surge inundation are major concerns in the Bay Area, affecting both communities and critical infrastructure. Our work explores multi-layer networks to understand the spatial vulnerability of oil transport systems and the cascading effects of climate-induced failures',
+						'Sea level rise (SLR) and storm surge inundation are major concerns along the coast of the San Francisco Bay (the Bay Area), impacting both coastal communities and critical infrastructure networks. The oil industry comprises a complex and critical infrastructure network located in the Bay Area. There is an urgent need to assess consequences and identify risk-based solutions to increase the resilience of this industrial network in the Bay Area to SLR and storm surge.',
+						'In this study, a comprehensive multi-modal network model representing the fuel supply system was built. A total of 120 coastal flooding scenarios, including four General Circulation Models, two Representative Concentration Pathways, three percentiles of future SLR estimates, and five planning horizons (20 year intervals from 2000 to 2100) were considered. The impact of coastal flooding on fuel transportation networks was studied at two different scales: regional and local. At the regional scale, basic network properties and network efficiency were analyzed across multiple flooding scenarios. At the local scale, cascading effects of individual node disruptions were simulated. Based on this research, smarter and more holistic risk-based adaptation strategies can be established which could lead to a more resilient fuel transportation network system.',
 					],
 
 
 
 				relatedPapers: [
 					{
-						title: 'Chen, Z. U. O., Wang, R., Hong, Y., Zhou, Y., He, Y., & Gronewold, A. D. (2024). The influence of road network topology on street flooding in New York City—A social media data approach. Journal of Hydrology, 638, 131471.',
-						link: 'https://www.sciencedirect.com/science/article/pii/S0022169424008679'
+						title: 'He, Y., Lindbergh, S., Ju, Y., Gonzalez, M., & Radke, J. (2021). Towards resilient critical infrastructures: Understanding the impact of coastal flooding on the fuel transportation network in the san francisco bay. ISPRS International Journal of Geo-Information, 10(9), 573.',
+						link: 'https://www.mdpi.com/2220-9964/10/9/573'
 					}
 				]
 			},
