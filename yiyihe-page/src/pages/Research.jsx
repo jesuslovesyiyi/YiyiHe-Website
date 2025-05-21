@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import '../App.css'
 import { Typography } from '@mui/material'
 import ImageSwitcher from '../components/ImageSwitcher'
+import ReactMarkdown from 'react-markdown'
 
 
 const researchAreas = [
@@ -21,8 +22,8 @@ const researchAreas = [
 					],
 				description:
 					[
-						'Climate change is driving more frequent and severe extreme weather events, posing an urgent, shared challenge for nations worldwide. Flooding poses a particularly acute threat among these hazards, and rapid urbanization, driving the continued expansion of human settlements into high-risk flood zones, has further deepened societal vulnerability. The consequences of floods extend well beyond direct inundation; disruptions to critical infrastructure can trigger cascading effects that paralyze mobility across regions. Yet the broader, systemic impacts of such disruptions and the underlying drivers that shape them remain underexplored. We address this gap by analyzing over 14 million kilometers of roads across 2,564 urban settlements spanning 162 countries and simulate more than 44 million trips under ten flood scenarios. ',
-						'Our results reveal that even limited road inundation can trigger widespread disruptions: in a 1-in-100-year flood, 14.7\% of roads are submerged by at least 0.3 meters, yet 44.8\% of trips fail. Moreover, we identify ten hotspot regions where neighboring clusters exhibit high levels of mobility disruption, revealing areas at risk of large-scale, interconnected road network failures. Finally, we identify three key indicators—exposure, connectivity, and travel patterns—as primary drivers of indirect impact. By evaluating their relative influence across regions, the study provides targeted recommendations to strengthen network resilience and inform hazard mitigation investments in areas most vulnerable to large-scale, interconnected network failures, building networked functional resilience across cities.'
+						'**Climate change is driving more frequent and severe extreme weather events**, posing an urgent, shared challenge for nations worldwide. Flooding poses a particularly acute threat among these hazards, and rapid urbanization, driving the continued expansion of human settlements into high-risk flood zones, has further deepened societal vulnerability. The consequences of floods extend well beyond direct inundation; disruptions to critical infrastructure can trigger cascading effects that paralyze mobility across regions. Yet the broader, systemic impacts of such disruptions and the underlying drivers that shape them remain underexplored. We address this gap by analyzing over 14 million kilometers of roads across 2,564 urban settlements spanning 162 countries and simulate more than 44 million trips under ten flood scenarios. ',
+						'*Our results reveal that even limited road inundation can trigger widespread disruptions*: in a [1-in-100-year flood](https://en.wikipedia.org/wiki/100-year_flood), 14.7\% of roads are submerged by at least 0.3 meters, yet 44.8\% of trips fail. Moreover, we identify ten hotspot regions where neighboring clusters exhibit high levels of mobility disruption, revealing areas at risk of large-scale, interconnected road network failures. Finally, we identify three key indicators—exposure, connectivity, and travel patterns—as primary drivers of indirect impact. By evaluating their relative influence across regions, the study provides targeted recommendations to strengthen network resilience and inform hazard mitigation investments in areas most vulnerable to large-scale, interconnected network failures, building networked functional resilience across cities.'
 					],
 				relatedPapers: [
 
@@ -124,10 +125,10 @@ const researchAreas = [
 					'/research/Light_05.jpeg',
 				],
 				description:
-				[
-					'Lightning strikes pose a severe threat to the United States (US) National Airspace System (NAS). Although the US Federal Aviation Administration (FAA) implements lightning protection practices and procedures to protect personnel, electronic equipment, and structures within the NAS, many lightning-induced outages still occur. To date we found that most research on lightning-induced facility outages has focused on understanding the physical processes of lightning strike effects on aircraft and airport ramp operations. Very little research has been done on examining the overall patterns and characteristics of such hazards to aviation from a geo-spatial standpoint.',
-					'To bridge this gap, we analyze nationwide lightning strike spatiotemporal data and FAA airport facility outage records from 2009 through 2020 and apply innovative pattern recognition methods to identify key characteristics of lightning strike hazards. Our results uncover the complexities of lightning strike hazard impact patterns to NAS facilities, identifying five distinct typologies with climatological signatures critical to creating better hazard mitigation strategies.',
-				],
+					[
+						'Lightning strikes pose a severe threat to the United States (US) National Airspace System (NAS). Although the US Federal Aviation Administration (FAA) implements lightning protection practices and procedures to protect personnel, electronic equipment, and structures within the NAS, many lightning-induced outages still occur. To date we found that most research on lightning-induced facility outages has focused on understanding the physical processes of lightning strike effects on aircraft and airport ramp operations. Very little research has been done on examining the overall patterns and characteristics of such hazards to aviation from a geo-spatial standpoint.',
+						'To bridge this gap, we analyze nationwide lightning strike spatiotemporal data and FAA airport facility outage records from 2009 through 2020 and apply innovative pattern recognition methods to identify key characteristics of lightning strike hazards. Our results uncover the complexities of lightning strike hazard impact patterns to NAS facilities, identifying five distinct typologies with climatological signatures critical to creating better hazard mitigation strategies.',
+					],
 
 				relatedPapers: [
 					{
@@ -265,9 +266,18 @@ const Research = () => {
 
 									<div className="research-right">
 										<div className="research-description">
-											{Array.isArray(block.description)
+											{/* {Array.isArray(block.description)
 												? block.description.map((para, i) => <p key={i}>{para}</p>)
 												: <p>{block.description}</p>
+											} */}
+
+											{Array.isArray(block.description)
+												? block.description.map((para, i) => (
+													<ReactMarkdown key={i} >
+														{para}
+													</ReactMarkdown>
+												))
+												: <ReactMarkdown>{block.description}</ReactMarkdown>
 											}
 										</div>
 
