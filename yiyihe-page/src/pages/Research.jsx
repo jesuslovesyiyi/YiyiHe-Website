@@ -117,10 +117,11 @@ const researchAreas = [
 		contentBlocks: [
 			{
 				image: [
-					'/research/Lightning_01.jpeg',
-					'/research/Lightning_02.jpeg',
-					'/research/Lightning_03.jpeg',
-					'/research/Lightning_04.jpeg',
+					'/research/Light_01.jpeg',
+					'/research/Light_02.jpeg',
+					'/research/Light_03.jpeg',
+					'/research/Light_04.jpeg',
+					'/research/Light_05.jpeg',
 				],
 				description:
 				[
