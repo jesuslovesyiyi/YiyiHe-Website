@@ -266,10 +266,6 @@ const Research = () => {
 
 									<div className="research-right">
 										<div className="research-description">
-											{/* {Array.isArray(block.description)
-												? block.description.map((para, i) => <p key={i}>{para}</p>)
-												: <p>{block.description}</p>
-											} */}
 
 											{Array.isArray(block.description)
 												? block.description.map((para, i) => (

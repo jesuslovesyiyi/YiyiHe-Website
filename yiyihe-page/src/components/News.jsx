@@ -1,17 +1,19 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
+
 
 const newsData = [
 	{
 		title: 'Leadership certificate',
 		date: '2025/05/21',
-		description: 'Yiyi completed the Office of Faculty Professional Development Leadership Exploration certificate program for 2024-2025.',
+		description: 'Yiyi completed the **Office of Faculty Professional Development Leadership Exploration** certificate program for 2024-2025.',
 		link: 'https://faculty.gatech.edu/2024-2025-ofpd-certificate-programs-faculty'
 	},
 
 	{
 		title: 'CURA Leadership Symposium',
 		date: '2025/04/08',
-		description: 'Yiyi joined the CURA Leadership Symposium as a discussant for Matthew Gonser, Climate Resilience Officer for Los Angeles County.',
+		description: 'Yiyi joined the *CURA Leadership Symposium* as a discussant for Matthew Gonser, Climate Resilience Officer for Los Angeles County.',
 		link: 'https://resilience.research.gatech.edu/feature/translating-urban-resilience-lessons-cura-symposium'
 	},
 
@@ -94,7 +96,14 @@ const News = () => {
 						className="news-item"
 					>
 						<span className="news-date">{news.date}&nbsp;</span>
-						<span className="news-title">{news.description}&nbsp; </span>
+						{/* <span className="news-title">{news.description}&nbsp; </span> */}
+
+						<span className="news-title">
+							<ReactMarkdown components={{ p: 'span' }}>
+								{news.description}
+							</ReactMarkdown>
+						</span>
+
 						<a href={news.link} target="_blank" rel="noopener noreferrer">Read more</a>
 					</div>
 				))}
