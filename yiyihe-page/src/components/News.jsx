@@ -4,7 +4,7 @@ const newsData = [
 	{
 		title: 'Leadership certificate',
 		date: '2025/05/21',
-		description: 'Yiyi completed the Office of Faculty Professional Development Leadership Exploration certificate program for 2024-2025',
+		description: 'Yiyi completed the Office of Faculty Professional Development Leadership Exploration certificate program for 2024-2025.',
 		link: 'https://faculty.gatech.edu/2024-2025-ofpd-certificate-programs-faculty'
 	},
 
