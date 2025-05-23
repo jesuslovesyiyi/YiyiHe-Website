@@ -6,8 +6,9 @@ const newsData = [
 	{
 		title: 'Leadership certificate',
 		date: '2025/05/21',
-		description: 'Yiyi completed the **Office of Faculty Professional Development Leadership Exploration** certificate program for 2024-2025.',
-		link: 'https://faculty.gatech.edu/2024-2025-ofpd-certificate-programs-faculty'
+		description: 'Yiyi completed the **Office of Faculty Professional Development Leadership Exploration** certificate program for 2024-2025. [Read More](https://faculty.gatech.edu/2024-2025-ofpd-certificate-programs-faculty)',
+		// link: 'https://faculty.gatech.edu/2024-2025-ofpd-certificate-programs-faculty'
+		link: ''
 	},
 
 	{
@@ -104,7 +105,7 @@ const News = () => {
 							</ReactMarkdown>
 						</span>
 
-						<a href={news.link} target="_blank" rel="noopener noreferrer">Read more</a>
+						{/* <a href={news.link} target="_blank" rel="noopener noreferrer">Read more</a> */}
 					</div>
 				))}
 			</div>

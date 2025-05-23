@@ -12,6 +12,8 @@ const researchAreas = [
 		title: "Climate Resilience",
 		contentBlocks: [
 			{
+
+
 				image:
 					[
 						'/research/GRR_01_small.jpeg',
