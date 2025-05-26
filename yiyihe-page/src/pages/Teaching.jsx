@@ -10,13 +10,13 @@ const courses = [
 	},
 	{
 		name: 'CP6542: Transport & GIS',
-		description: ' Transportation data models, data processing, modeling, and service delivery in geographical information systems.',
+		description: 'This course covers the applications of GIS and emerging spatial technologies in transportation network modeling. Its primary goal is to help students understand the basic principles of geographical information science for transportation modeling and to equip students with state-of-the-practice computing technology.',
 		image: '/teaching/transport-and-gis.jpg',
 		github: 'https://github.com/jesuslovesyiyi/Transport-GIS'
 	},
 	{
 		name: 'CP 4190: Intro to Climate Change Planning',
-		description: 'This course equips students with the knowledge and methods necessary to undertake the next generation of state, local, corporate, and enterprise climate action planning.',
+		description: 'This course is an introduction to the major topics in climate change planning, including the scientific basis of the greenhouse effect, the history of Earth’s climate, energy options, economics, and public policy, the effect of climate change on food, water, and health, and the national and international legal frameworks for the management of climate change.',
 		image: '/teaching/climate-change.jpg',
 		github: 'https://github.com/jesuslovesyiyi/Understanding-Climate-Change',
 	},
