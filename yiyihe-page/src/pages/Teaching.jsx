@@ -1,5 +1,6 @@
 import React from 'react'
 import { Typography } from '@mui/material';
+import ReactMarkdown from 'react-markdown'
 
 const courses = [
 	{

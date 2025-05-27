@@ -12,8 +12,7 @@ const researchAreas = [
 		title: "Climate Resilience",
 		contentBlocks: [
 			{
-
-
+				title: 'Title 1',
 				image:
 					[
 						'/research/GRR_01_small.jpeg',
@@ -36,6 +35,7 @@ const researchAreas = [
 				]
 			},
 			{
+				title: 'Title',
 				image: [
 					'/research/Kinshasa_01.jpeg',
 					'/research/Kinshasa_02.jpeg',
@@ -44,7 +44,6 @@ const researchAreas = [
 					'/research/Kinshasa_05.png',
 				],
 				description: [
-
 					'Transportation networks underpin socioeconomic development by enabling the movement of goods and people. However, despite their frequency, little is known about how floods disrupt transportation systems in developing country cities. We collect an innovative **dual-condition transit feed specification dataset**, and combine it with a travel survey and high-resolution flood maps to examine how regular floods in Kinshasa impact **transport services**, **job accessibility**, and the associated economic **opportunity costs** from travel delays.',
 					'Our results show that flood disruptions cause increases in public transit headways, transit rerouting, decreases in travel speeds, which translate into travel delays and loss of job accessibility. This induces substantial economic costs to local commuters – **$1.2 million daily** – and hinders the establishment of an integrated citywide labor market. In addition, we reveal sizeable socio-spatial heterogeneities, with clusters of low-income residents incurring a large share of the travel delays and identify critical network segments that should be prioritized for resilience interventions.',
 				],
@@ -268,6 +267,7 @@ const Research = () => {
 
 									<div className="research-right">
 										<div className="research-description">
+											{block.title && <h4 className="research-block-title">{block.title}</h4>}
 
 											{Array.isArray(block.description)
 												? block.description.map((para, i) => (
