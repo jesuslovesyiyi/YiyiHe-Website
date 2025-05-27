@@ -20,7 +20,12 @@ const courses = [
 		image: '/teaching/climate-change.jpg',
 		github: 'https://github.com/jesuslovesyiyi/Understanding-Climate-Change',
 	},
-
+	{
+		name: 'CP 8012: PhD Foundations Seminar',
+		description: 'The PhD Foundations Seminar seeks to provide an opportunity for incoming doctoral students to develop a plan of study, Prepare for research and teaching roles, and examine the ethical issues of responsible conduct of research.',
+		image: '/teaching/foundations.avif',
+		github: 'https://www.notion.so/Fall-2025-PhD-Foundations-Seminar-CP-8012-1fea6d2c9012802888e0cb3af2dbadf6?pvs=4',
+	},
 ]
 
 const Course = ({ name, description, image, github, code }) => {
@@ -31,7 +36,7 @@ const Course = ({ name, description, image, github, code }) => {
 				<h3>{name}</h3>
 				<p>{description}</p>
 				<div className="course__links">
-					<a href={github} target="_blank" rel="noopener noreferrer">[GitHub Repo]</a>
+					<a href={github} target="_blank" rel="noopener noreferrer">[Syllabus]</a>
 				</div>
 			</div>
 		</div>
