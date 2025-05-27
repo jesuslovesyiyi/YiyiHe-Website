@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown'
 const courses = [
 	{
 		name: 'CP4813: Urban Data Science',
-		description: 'In today’s world, understanding cities requires more than just traditional methods. Urban planners and social scientists are increasingly turning to data science techniques to gain deeper insights into the complex issues that cities face. This course serves as an introduction to data science for undergraduate and graduate students in urban planning and related fields.',
+		description: '**In today’s world**, understanding cities requires more than just traditional methods. Urban planners and social scientists are increasingly turning to data science techniques to gain deeper insights into the complex issues that cities face. This course serves as an introduction to data science for undergraduate and graduate students in urban planning and related fields.',
 		image: '/teaching/urban-data-science.jpg',
 		github: 'https://github.com/jesuslovesyiyi/Urban-Data-Science',
 	},
@@ -35,7 +35,8 @@ const Course = ({ name, description, image, github, code }) => {
 			<img src={image} alt={name} className="course__image" />
 			<div className="course__info">
 				<h3>{name}</h3>
-				<p>{description}</p>
+				{/* <p>{description}</p> */}
+				<ReactMarkdown>{description}</ReactMarkdown>
 				<div className="course__links">
 					<a href={github} target="_blank" rel="noopener noreferrer">[Syllabus]</a>
 				</div>
