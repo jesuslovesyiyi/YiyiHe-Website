@@ -24,15 +24,7 @@ const teamData = {
 			github: 'https://github.com/Sealxuyh',
 			website: 'http://www.yuhanxu.top/'
 		},
-		{
-			name: 'Tara Liu',
-			position: 'Graduate Research Assistant',
-			bio: 'Tara(they/their) is a master student in CSE and an aspiring data scientist. They are interested in empowering the marginalized communities with technology and have 10+ industry experience. They enjoy nature and metal music in free time. Fun fact: Taco cat spelled backward is taco cat.',
-			image: '/team-member/taraliu.jpg',
-			linkedin: 'https://www.linkedin.com/in/tara-tingyu-liu/',
-			github: 'https://github.com/taraliu23',
-			website: 'https://taraliu.netlify.app/'
-		},
+
 		{
 			name: 'Yuehan Zhang',
 			position: 'Graduate Teaching Assistant',
@@ -63,6 +55,15 @@ const teamData = {
 
 	],
 	pastMembers: [
+		{
+			name: 'Tara Liu',
+			position: 'Graduate Research Assistant',
+			bio: 'Tara(they/their) is a master student in CSE and an aspiring data scientist. They are interested in empowering the marginalized communities with technology and have 10+ industry experience. They enjoy nature and metal music in free time. Fun fact: Taco cat spelled backward is taco cat.',
+			image: '/team-member/taraliu.jpg',
+			linkedin: 'https://www.linkedin.com/in/tara-tingyu-liu/',
+			github: 'https://github.com/taraliu23',
+			website: 'http://taraliu.net/'
+		},
 		{
 			name: 'Changmin Seok',
 			bio: 'Changmin is a second-year master student in city and regional planning.His research focuses on transportation economics and economic development in emerging cities of the Global South.Before joining Tech, Changmin was a loan officer at the Export- Import Bank of Korea, where he focused on deploying feasibility studies and due diligence for infrastructure projects in the developing countries.',

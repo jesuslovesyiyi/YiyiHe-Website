@@ -9,7 +9,11 @@ const newsData = [
 		description: 'Yiyi completed the Office of Faculty Professional Development Leadership Exploration certificate program for 2024-2025.',
 		// link: 'https://faculty.gatech.edu/2024-2025-ofpd-certificate-programs-faculty'
 	},
-
+	{
+		title: 'Tara Graduates',
+		date: '2025/05/11',
+		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering',
+	},
 	{
 		title: 'CURA Leadership Symposium',
 		date: '2025/04/08',
@@ -20,7 +24,7 @@ const newsData = [
 	{
 		title: 'Tara AI Safety Initiative',
 		date: '2025/04/04',
-		description: 'Tara is accepted into the [AI Safety Initiative (AISI)](https://www.aisi.dev/) research program at Georgia Tech, where she is contributing to a research paper on AI interpretability.',
+		description: 'Tara is accepted into the [AI Safety Initiative (AISI)](https://www.aisi.dev/) research program at Georgia Tech, where they are contributing to a research paper on AI interpretability.',
 	},
 
 	{
