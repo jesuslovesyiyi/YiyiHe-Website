@@ -12,7 +12,7 @@ const researchAreas = [
 		title: "Climate Resilience",
 		contentBlocks: [
 			{
-				title: 'Title 1',
+				contentTitle: 'Title 1',
 				image:
 					[
 						'/research/GRR_01_small.jpeg',
@@ -35,7 +35,7 @@ const researchAreas = [
 				]
 			},
 			{
-				title: 'Title',
+				contentTitle: 'Title 2',
 				image: [
 					'/research/Kinshasa_01.jpeg',
 					'/research/Kinshasa_02.jpeg',
@@ -65,6 +65,9 @@ const researchAreas = [
 		title: 'Network Science',
 		contentBlocks: [
 			{
+
+				contentTitle: 'Title 3',
+
 				image: [
 					'/research/DIM_01.jpeg',
 					'/research/DIM_02.jpeg',
@@ -87,6 +90,8 @@ const researchAreas = [
 				]
 			},
 			{
+				contentTitle: 'Title 4',
+
 				image: [
 					'/research/CEC_01.jpeg',
 					'/research/CEC_02.jpeg',
@@ -118,6 +123,7 @@ const researchAreas = [
 		title: 'Machine Learning',
 		contentBlocks: [
 			{
+				contentTitle: "title 5",
 				image: [
 					'/research/Light_01.jpeg',
 					'/research/Light_02.jpeg',
@@ -267,7 +273,7 @@ const Research = () => {
 
 									<div className="research-right">
 										<div className="research-description">
-											{block.title && <h4 className="research-block-title">{block.title}</h4>}
+											{block.contentTitle && <h4 className="research-block-title">{block.contentTitle}</h4>}
 
 											{Array.isArray(block.description)
 												? block.description.map((para, i) => (
