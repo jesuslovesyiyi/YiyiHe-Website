@@ -35,7 +35,7 @@ const researchAreas = [
 				]
 			},
 			{
-				contentTitle: 'Title 2',
+				contentTitle: '$1.2 Million a Day: How Floods Undermine Urban Transit and Job Access in Kinshasa',
 				image: [
 					'/research/Kinshasa_01.jpeg',
 					'/research/Kinshasa_02.jpeg',
@@ -66,7 +66,7 @@ const researchAreas = [
 		contentBlocks: [
 			{
 
-				contentTitle: 'Title 3',
+				contentTitle: 'Dimension Reduction Approach for Understanding Resource-flow Resilience to Climate Change',
 
 				image: [
 					'/research/DIM_01.jpeg',
@@ -90,7 +90,7 @@ const researchAreas = [
 				]
 			},
 			{
-				contentTitle: 'Title 4',
+				contentTitle: 'Multi-Modal Network Modeling of Fuel Systems Under Coastal Flooding and Cascading Failures',
 
 				image: [
 					'/research/CEC_01.jpeg',
@@ -123,7 +123,7 @@ const researchAreas = [
 		title: 'Machine Learning',
 		contentBlocks: [
 			{
-				contentTitle: "title 5",
+				contentTitle: "Illuminating Risk: Lightning Strike Typologies in the National Airspace System",
 				image: [
 					'/research/Light_01.jpeg',
 					'/research/Light_02.jpeg',
