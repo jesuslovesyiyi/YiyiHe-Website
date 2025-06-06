@@ -7,9 +7,7 @@ const courses = [
 		name: 'CP4813: Urban Data Science',
 		description:
 			[
-				'**In today’s world**, understanding cities requires more than just traditional methods. Urban planners and social scientists are increasingly turning to data science techniques to gain deeper insights into the complex issues that cities face. This course serves as an introduction to data science for undergraduate and graduate students in urban planning and related fields.',
-				'Another paragraph!',
-				'And another one!',
+				'In today’s world, understanding cities requires more than just traditional methods. Urban planners and social scientists are increasingly turning to data science techniques to gain deeper insights into the complex issues that cities face. This course serves as an introduction to data science for undergraduate and graduate students in urban planning and related fields.',
 				'[Syllabus](https://github.com/jesuslovesyiyi/Urban-Data-Science)',
 			],
 		image: '/teaching/urban-data-science.jpg',
