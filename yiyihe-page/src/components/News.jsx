@@ -12,7 +12,7 @@ const newsData = [
 	{
 		title: 'Tara Graduates',
 		date: '2025/05/11',
-		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering',
+		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering [[Read more]](https://www.linkedin.com/posts/tara-tingyu-liu_graduated-from-college-of-computing-at-activity-7333660084679417856-2blt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkknJEBgymnWw1Z5PcinxBcNOtJy2rzrHY)',
 	},
 	{
 		title: 'CURA Leadership Symposium',

@@ -12,7 +12,7 @@ const researchAreas = [
 		title: "Climate Resilience",
 		contentBlocks: [
 			{
-				contentTitle: 'Title 1',
+				contentTitle: 'Where the Roads End: A Global Analysis of Flood-Driven Transport Disruptions',
 				image:
 					[
 						'/research/GRR_01_small.jpeg',
