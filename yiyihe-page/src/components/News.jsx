@@ -4,6 +4,11 @@ import ReactMarkdown from 'react-markdown'
 
 const newsData = [
 	{
+		title: 'Welcome Yuhan',
+		date: '2025/06/10',
+		description: 'Welcome to the lab, Yuhan! We are so glad to have you join us as a PhD student.',
+	},
+	{
 		title: 'Leadership certificate',
 		date: '2025/05/21',
 		description: 'Yiyi completed the Office of Faculty Professional Development Leadership Exploration certificate program for 2024-2025.',
