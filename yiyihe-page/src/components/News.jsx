@@ -17,7 +17,7 @@ const newsData = [
 	{
 		title: 'Tara Graduates',
 		date: '2025/05/11',
-		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering [Read more](https://www.linkedin.com/posts/tara-tingyu-liu_graduated-from-college-of-computing-at-activity-7333660084679417856-2blt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkknJEBgymnWw1Z5PcinxBcNOtJy2rzrHY)',
+		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering. [Read more](https://www.linkedin.com/posts/tara-tingyu-liu_graduated-from-college-of-computing-at-activity-7333660084679417856-2blt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkknJEBgymnWw1Z5PcinxBcNOtJy2rzrHY)',
 	},
 	{
 		title: 'CURA Leadership Symposium',
@@ -95,27 +95,26 @@ const News = () => {
 
 
 
-			<h3> News</h3>
-			<div className="news-list">
-				{newsData.map((news, index) => (
-					<div key={index}
-						className="news-item"
-					>
-						<span className="news-date">{news.date}&nbsp;</span>
-						{/* <span className="news-title">{news.description}&nbsp; </span> */}
 
-						<span className="news-title">
-							<ReactMarkdown
-								rehypePlugins={[[rehypeExternalLinks, { target: '_blank' }]]} components={{ p: 'span' }}
-							>
-								{news.description}
-							</ReactMarkdown>
-						</span>
 
-						{/* <a href={news.link} target="_blank" rel="noopener noreferrer">Read more</a> */}
-					</div>
-				))}
-			</div>
+			<h3>News</h3>
+			<table className="news-table">
+				<tbody>
+					{newsData.map((news, index) => (
+						<tr key={index} className="news-row">
+							<td className="news-date">{news.date}</td>
+							<td className="news-content">
+								<ReactMarkdown
+									rehypePlugins={[[rehypeExternalLinks, { target: '_blank' }]]}
+									components={{ p: 'span' }}
+								>
+									{news.description}
+								</ReactMarkdown>
+							</td>
+						</tr>
+					))}
+				</tbody>
+			</table>
 		</div>
 	)
 }

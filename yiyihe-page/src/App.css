@@ -1060,8 +1060,26 @@ h2 {
 /* ===== News ===== */
 .news {
   align-items: flex-start;
-  /* padding: 1rem 0;
-   */
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+.news-table {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.news-row {
+  vertical-align: top;
+  padding: 0.5rem 0;
+}
+
+.news-date {
+  width: 6rem;
+  padding-right: 1.5rem;
+  /* font-weight: bold; */
+  white-space: nowrap;
+  vertical-align: top;
 }
