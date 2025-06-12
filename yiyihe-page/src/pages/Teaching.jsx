@@ -1,6 +1,8 @@
 import React from 'react'
 import { Typography } from '@mui/material';
 import ReactMarkdown from 'react-markdown'
+import rehypeExternalLinks from 'rehype-external-links'
+
 
 const courses = [
 	{
@@ -52,7 +54,7 @@ const Course = ({ name, description, image, github, code }) => {
 
 				{Array.isArray(description) ? (
 					description.map((desc, idx) => (
-						<ReactMarkdown key={idx}>{desc}</ReactMarkdown>
+						<ReactMarkdown rehypePlugins={[[rehypeExternalLinks, { target: '_blank' }]]} key={idx}>{desc}</ReactMarkdown>
 					))
 				) : (
 					<ReactMarkdown>{description}</ReactMarkdown>

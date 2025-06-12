@@ -106,7 +106,6 @@ const News = () => {
 
 						<span className="news-title">
 							<ReactMarkdown
-								// linkTarget="_blank" components={{ p: 'span' }}
 								rehypePlugins={[[rehypeExternalLinks, { target: '_blank' }]]} components={{ p: 'span' }}
 							>
 								{news.description}
