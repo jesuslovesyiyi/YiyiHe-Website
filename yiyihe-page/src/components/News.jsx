@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-
+import rehypeExternalLinks from 'rehype-external-links'
 
 const newsData = [
 	{
@@ -105,7 +105,10 @@ const News = () => {
 						{/* <span className="news-title">{news.description}&nbsp; </span> */}
 
 						<span className="news-title">
-							<ReactMarkdown linkTarget="_blank" components={{ p: 'span' }}>
+							<ReactMarkdown
+								// linkTarget="_blank" components={{ p: 'span' }}
+								rehypePlugins={[[rehypeExternalLinks, { target: '_blank' }]]} components={{ p: 'span' }}
+							>
 								{news.description}
 							</ReactMarkdown>
 						</span>
