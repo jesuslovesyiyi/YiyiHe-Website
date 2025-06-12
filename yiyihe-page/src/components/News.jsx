@@ -17,12 +17,12 @@ const newsData = [
 	{
 		title: 'Tara Graduates',
 		date: '2025/05/11',
-		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering [[Read more]](https://www.linkedin.com/posts/tara-tingyu-liu_graduated-from-college-of-computing-at-activity-7333660084679417856-2blt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkknJEBgymnWw1Z5PcinxBcNOtJy2rzrHY)',
+		description: 'Tara graduates from Georgia Tech College of Computing with a master degree in Computational Science and Engineering [Read more](https://www.linkedin.com/posts/tara-tingyu-liu_graduated-from-college-of-computing-at-activity-7333660084679417856-2blt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkknJEBgymnWw1Z5PcinxBcNOtJy2rzrHY)',
 	},
 	{
 		title: 'CURA Leadership Symposium',
 		date: '2025/04/08',
-		description: 'Yiyi joined the CURA Leadership Symposium as a discussant for Matthew Gonser, Climate Resilience Officer for Los Angeles County. [[Read more]](https://resilience.research.gatech.edu/feature/translating-urban-resilience-lessons-cura-symposium)',
+		description: 'Yiyi joined the CURA Leadership Symposium as a discussant for Matthew Gonser, Climate Resilience Officer for Los Angeles County. [Read more](https://resilience.research.gatech.edu/feature/translating-urban-resilience-lessons-cura-symposium)',
 		// link: 'https://resilience.research.gatech.edu/feature/translating-urban-resilience-lessons-cura-symposium'
 	},
 
@@ -35,19 +35,19 @@ const newsData = [
 	{
 		title: 'Google Guest Lecture',
 		date: '2025/04/03',
-		description: 'Staff AI research scientist Hongxu Ma from Google DeepMind came to the GT campus and delivered a guest lecture on "The Rise of the Data Science Assistant: LLM Agents in Action". [[Read more]](https://www.notion.so/How-LLM-Agents-Are-Revolutionizing-Data-Science-Insights-from-Dr-Hongxu-Ma-s-Lecture-1d3a6d2c901280a89136e2ee7bc88a31?pvs=4)',
+		description: 'Staff AI research scientist Hongxu Ma from Google DeepMind came to the GT campus and delivered a guest lecture on "The Rise of the Data Science Assistant: LLM Agents in Action". [Read more](https://www.notion.so/How-LLM-Agents-Are-Revolutionizing-Data-Science-Insights-from-Dr-Hongxu-Ma-s-Lecture-1d3a6d2c901280a89136e2ee7bc88a31?pvs=4)',
 	},
 
 	{
 		title: 'Tara Lavender Celebration',
 		date: '2025/04/01',
-		description: 'Tara is recognized as one of 2025 Lavender Celebration graduates. [[Read more]](https://belonging.gatech.edu/event/lavender-celebration)',
+		description: 'Tara is recognized as one of 2025 Lavender Celebration graduates. [Read more](https://belonging.gatech.edu/event/lavender-celebration)',
 	},
 
 	{
 		title: 'BBISS Faculty Fellow',
 		date: '2025/02/19',
-		description: 'Yiyi appointed as faculty fellow to the Brook Byers Institute for Sustainable Systems (BBISS). [[Read more]](https://research.gatech.edu/seven-appointed-bbiss-faculty-fellows)',
+		description: 'Yiyi appointed as faculty fellow to the Brook Byers Institute for Sustainable Systems (BBISS). [Read more](https://research.gatech.edu/seven-appointed-bbiss-faculty-fellows)',
 	},
 
 	{
