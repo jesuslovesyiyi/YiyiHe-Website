@@ -105,7 +105,7 @@ const News = () => {
 						{/* <span className="news-title">{news.description}&nbsp; </span> */}
 
 						<span className="news-title">
-							<ReactMarkdown components={{ p: 'span' }}>
+							<ReactMarkdown linkTarget="_blank" components={{ p: 'span' }}>
 								{news.description}
 							</ReactMarkdown>
 						</span>
