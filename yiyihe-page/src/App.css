@@ -685,6 +685,10 @@ h2 {
   margin-right: 6rem;
 }
 
+.research-block-title {
+  font-size: larger;
+}
+
 .research-title {
   font-size: 1.5rem;
   font-weight: bold;
