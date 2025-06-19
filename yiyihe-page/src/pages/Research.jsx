@@ -4,7 +4,8 @@ import '../App.css'
 import { Typography } from '@mui/material'
 import ImageSwitcher from '../components/ImageSwitcher'
 import ReactMarkdown from 'react-markdown'
-
+import tocbot from 'tocbot'
+import 'tocbot/dist/tocbot.css'
 
 const researchAreas = [
 	{
@@ -144,62 +145,31 @@ const researchAreas = [
 					}
 				]
 			},
-
 		]
-
 
 	},
 ]
 
 
 const Research = () => {
-	const [activeId, setActiveId] = useState(null)
 
-	// Dynamically create refs for each section
-	const sectionRefs = useRef({})
 	useEffect(() => {
-		researchAreas.forEach(area => {
-			if (!sectionRefs.current[area.id]) {
-				sectionRefs.current[area.id] = React.createRef()
-			}
-		})
-	}, [])
+		// Small delay ensures DOM is ready
+		setTimeout(() => {
+			tocbot.init({
+				tocSelector: '.research-toc',
+				contentSelector: '.research-grid',
+				headingSelector: 'h3',
+				positionFixedSelector: '.research-toc',
+				positionFixedClass: 'is-fixed',
+				smoothScroll: true,
+				scrollSmoothOffset: -80
+			})
+		}, 0)
 
-
-
-	// Scroll to section on TOC click
-	const scrollToSection = (id) => {
-		const ref = sectionRefs.current[id]
-		if (ref?.current) {
-			ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+		return () => {
+			tocbot.destroy()
 		}
-	}
-
-	// Observe scroll position to highlight active TOC item
-	useEffect(() => {
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						setActiveId(entry.target.id)
-					}
-				})
-			},
-			{
-				rootMargin: '0px 0px -60% 0px',
-				threshold: 0
-			}
-		)
-
-		Object.entries(sectionRefs.current).forEach(([id, ref]) => {
-			if (ref.current) {
-
-				observer.observe(ref.current)
-
-			}
-		})
-
-		return () => observer.disconnect()
 	}, [])
 
 	return (
@@ -215,24 +185,8 @@ const Research = () => {
 			<div className="research-page-wrapper">
 				{/* TOC Sidebar */}
 				<nav className="research-toc">
-					<ul>
-						{researchAreas.map(area => (
-							<li
-								key={area.id}
-								className={activeId === area.id ?
-									'active' : ''}>
-								<a
-									href={`#${area.id}`}
-									onClick={(e) => {
-										e.preventDefault()
-										scrollToSection(area.id)
-									}}
-								>
-									{area.title}
-								</a>
-							</li>
-						))}
-					</ul>
+					<nav className="research-toc" />
+
 				</nav>
 
 				{/* Research Content */}
@@ -241,10 +195,11 @@ const Research = () => {
 						<section
 							key={area.id}
 							id={area.id}
-							ref={sectionRefs.current[area.id]}
+							// ref={sectionRefs.current[area.id]}
 							className="research-section"
 						>
-							<h3 className="research-title">{area.title}</h3>
+							<h3 className="research-title" id={area.id} >{area.title}</h3>
+
 							{area.contentBlocks.map((block, i) => (
 								<div key={i} className="research-block">
 									<div className="research-left">
@@ -296,6 +251,7 @@ const Research = () => {
 		</div>
 	)
 }
+
 
 export default Research
 
