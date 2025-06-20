@@ -4,6 +4,11 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 const newsData = [
 	{
+		title: 'Yiyi join SimTigrate',
+		date: '2025/06/19',
+		description: 'Yiyi joined [SimTigrate Design Center](https://simtigrate.gatech.edu/) as an affiliated faculty.',
+	},
+	{
 		title: 'Welcome Yuhan',
 		date: '2025/06/10',
 		description: 'Welcome to the lab, Yuhan! We are so glad to have you join us as a PhD student.',
