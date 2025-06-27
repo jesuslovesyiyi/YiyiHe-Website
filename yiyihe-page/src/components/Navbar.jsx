@@ -4,17 +4,23 @@ import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Button, Container } from '@mui/material';
 
 const Navbar = () => {
-
-
 	useEffect(() => {
-		const isMobile = window.innerWidth <= 768;
-		if (isMobile) {
-			return
+		const isMobileOrTablet = window.innerWidth <= 1024;
+		const navbar = document.querySelector(".navbar-container");
+
+		if (isMobileOrTablet) {
+			const handleMobileScroll = () => {
+				if (window.scrollY < window.innerHeight) {
+					navbar.style.position = "sticky";
+				} else {
+					navbar.style.position = "static";
+				}
+			};
+			window.addEventListener("scroll", handleMobileScroll);
+			return () => window.removeEventListener("scroll", handleMobileScroll);
 		}
 
-
 		let lastScrollTop = 0;
-		const navbar = document.querySelector(".navbar-container");
 
 		const handleScroll = () => {
 			const scrollTop = window.scrollY || document.documentElement.scrollTop;
@@ -36,24 +42,18 @@ const Navbar = () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
 	}, []);
+
+
 	return (
 
 		<Container
 			className='navbar-container-wrapper tweak-fixed-header'
 		>
 			<AppBar
-				className='navbar-container'>
+				className='navbar-container'
+			>
 
 				<Toolbar>
-					{/* <Typography className='button main-page-link'
-						variant="h6"
-						component="div"
-						sx={{ flexGrow: 1 }}>
-						<Link to="/"
-							style={{ color: 'inherit', textDecoration: 'none', alignSelf: 'left' }}>
-							Yiyi He
-						</Link>
-					</Typography> */}
 
 					<Button
 						className='button'
