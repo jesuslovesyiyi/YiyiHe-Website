@@ -145,7 +145,8 @@ a:hover {
   transition: padding 140ms ease-in-out !important;
   justify-content: space-between !important;
   align-items: center;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
+  padding: 1rem;
   background-color: hsla(var(--darkAccent-hsl), 0.6) !important;
   font-family: var(--heading-font-font-family) !important;
   box-shadow: none !important;
@@ -160,10 +161,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  /* .navbar-container.hidden {
-    top: 0 !important;
-    transition: none !important;
-  } */
+
 
   .navbar-container {
     position: sticky;
