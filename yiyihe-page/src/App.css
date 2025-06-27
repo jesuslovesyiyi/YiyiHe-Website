@@ -161,11 +161,9 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-
-
   .navbar-container {
     position: sticky;
-    top: 0;
+    top: 1rem;
     z-index: 1000;
     background-color: hsla(var(--darkAccent-hsl), 0.9);
     transition: none;
@@ -176,7 +174,7 @@ a:hover {
 @media (max-width: 1024px) {
   .navbar-container {
     position: sticky;
-    top: 0;
+    top: 1rem;
     z-index: 1000;
     background-color: hsla(var(--darkAccent-hsl), 0.9);
     transition: none;
