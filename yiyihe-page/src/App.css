@@ -164,9 +164,11 @@ a:hover {
   .navbar-container {
     position: absolute;
     top: 1rem;
+    padding: 0%;
     /* z-index: 1000; */
     background-color: hsla(var(--darkAccent-hsl), 0.6);
     transition: none;
+    width: 100% !important;
   }
 }
 
@@ -175,9 +177,11 @@ a:hover {
   .navbar-container {
     position: absolute;
     top: 1rem;
+    padding: 0%;
     /* z-index: 1000; */
     background-color: hsla(var(--darkAccent-hsl), 0.6);
     transition: none;
+    width: 100%;
   }
 }
 
