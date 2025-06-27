@@ -160,37 +160,33 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .navbar-container.hidden {
+  /* .navbar-container.hidden {
     top: 0 !important;
     transition: none !important;
-    /* Optional: prevent jumpiness */
-  }
+  } */
 
   .navbar-container {
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: hsla(var(--darkAccent-hsl), 0.9);
-    /* more solid for mobile */
+    transition: none;
+  }
+}
+
+/* for ipad mobile  */
+@media (max-width: 1024px) {
+  .navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: hsla(var(--darkAccent-hsl), 0.9);
     transition: none;
   }
 }
 
 
-@media (max-width: 768px) {
-  .navbar-container {
-    position: sticky !important;
-    top: 0;
-    z-index: 1000;
-    transition: none !important;
-    background-color: hsla(var(--darkAccent-hsl), 0.9) !important;
-  }
 
-  .navbar-container.hidden {
-    top: 0 !important;
-    /* prevent hiding on mobile */
-  }
-}
 
 /* ===== Footer Styles ===== */
 .footer {
