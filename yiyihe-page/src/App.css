@@ -162,8 +162,8 @@ a:hover {
 
 @media (max-width: 768px) {
   .navbar-container {
-    position: absolute;
-    top: 1rem;
+    position: sticky;
+    /* top: 1rem; */
     padding: 0%;
     /* z-index: 1000; */
     background-color: hsla(var(--darkAccent-hsl), 0.6);
@@ -175,8 +175,8 @@ a:hover {
 /* for ipad mobile  */
 @media (max-width: 1024px) {
   .navbar-container {
-    position: absolute;
-    top: 1rem;
+    position: sticky;
+    /* top: 1rem; */
     padding: 0%;
     /* z-index: 1000; */
     background-color: hsla(var(--darkAccent-hsl), 0.6);
