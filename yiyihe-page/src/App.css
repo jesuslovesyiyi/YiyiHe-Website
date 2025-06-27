@@ -162,10 +162,10 @@ a:hover {
 
 @media (max-width: 768px) {
   .navbar-container {
-    position: sticky;
+    position: absolute;
     top: 1rem;
-    z-index: 1000;
-    background-color: hsla(var(--darkAccent-hsl), 0.9);
+    /* z-index: 1000; */
+    background-color: hsla(var(--darkAccent-hsl), 0.6);
     transition: none;
   }
 }
@@ -173,15 +173,13 @@ a:hover {
 /* for ipad mobile  */
 @media (max-width: 1024px) {
   .navbar-container {
-    position: sticky;
+    position: absolute;
     top: 1rem;
-    z-index: 1000;
-    background-color: hsla(var(--darkAccent-hsl), 0.9);
+    /* z-index: 1000; */
+    background-color: hsla(var(--darkAccent-hsl), 0.6);
     transition: none;
   }
 }
-
-
 
 
 /* ===== Footer Styles ===== */
