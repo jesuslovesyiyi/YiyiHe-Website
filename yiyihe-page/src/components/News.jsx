@@ -11,7 +11,7 @@ const newsData = [
 	{
 		title: 'Yuhan new npj publication',
 		date: '2025/07/01',
-		description: 'Yuhan published an article in npj Urban Sustainability titled [Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations](https://www.nature.com/articles/s42949-025-00231-x).',
+		description: 'Yuhan published an article in [npj Urban Sustainability](https://www.nature.com/npjurbansustain/) titled [Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations](https://www.nature.com/articles/s42949-025-00231-x).',
 	},
 	{
 		title: 'Yiyi join SimTigrate',
