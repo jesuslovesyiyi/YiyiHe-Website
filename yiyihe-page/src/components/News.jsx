@@ -84,12 +84,12 @@ const newsData = [
 	{
 		title: 'New Research Paper Published',
 		date: '2024/08/01',
-		description: 'Our paper [Beyond carbon: Unveiling vulnerabilities of the transportation fuel system for climate resilience](https://www.sciencedirect.com/science/article/pii/S2214629624001762) is published in Energy Research & Social Science.',
+		description: 'Our paper [Beyond carbon: Unveiling vulnerabilities of the transportation fuel system for climate resilience](https://www.sciencedirect.com/science/article/pii/S2214629624001762) is published in [Energy Research & Social Science](https://www.sciencedirect.com/journal/energy-research-and-social-science).',
 	},
 	{
 		title: 'New Research Paper Published',
 		date: '2024/06/15',
-		description: 'Our paper [Dimension reduction approach for understanding resource-flow resilience to climate change](https://www.nature.com/articles/s42005-024-01664-z) is published in Nature Communications Physics.',
+		description: 'Our paper [Dimension reduction approach for understanding resource-flow resilience to climate change](https://www.nature.com/articles/s42005-024-01664-z) is published in [Nature Communications Physics](https://www.nature.com/commsphys/).',
 	}
 ]
 
