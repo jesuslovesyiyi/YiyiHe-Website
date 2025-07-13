@@ -58,10 +58,10 @@ const teamData = {
 		{
 			name: 'Tara Liu',
 			position: 'Graduate Research Assistant',
-			bio: 'Tara(they/their) is a master student in CSE and an aspiring data scientist. They are interested in empowering the marginalized communities with technology and have 10+ industry experience. They enjoy nature and metal music in free time. Fun fact: Taco cat spelled backward is taco cat.',
+			bio: 'Tara(pronouns: they/them) graduated in May 2025 with a master degree in computational science. They are interested in empowering the marginalized communities with technology and have 10+ industry experience. They enjoy nature and metal music in free time. Fun fact: Taco cat spelled backward is taco cat.',
 			image: '/team-member/taraliu.jpg',
 			linkedin: 'https://www.linkedin.com/in/tara-tingyu-liu/',
-			github: 'https://github.com/taraliu23',
+			github: 'https://github.com/drunk3nb0at',
 			website: 'http://taraliu.net/'
 		},
 		{
