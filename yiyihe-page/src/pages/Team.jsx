@@ -18,7 +18,7 @@ const teamData = {
 		{
 			name: 'Yuhan Xu',
 			position: 'PhD student',
-			bio: 'Yuhan is pursuing her PhD in City and Regional Planning at Georgia Tech. Her research interests lie at the intersection of urban planning, transportation, public health, and data science. She is particularly interested in addressing urban weather extremes (e.g., heatwaves, flooding, wildfires) to help build resilient and equitable cities. Her previous work involves leveraging geospatial data analysis and advanced machine learning techniques to drive evidence-based solutions for sustainable urban development and environmental planning. Yuhan received her bachelor and master degrees in landscape architecture from Southeast University, China.Before joining Tech, she also worked as a research assistant in the Department of Urban Planning and Design at the University of Hong Kong.',
+			bio: 'Yuhan is pursuing her PhD in City and Regional Planning at Georgia Tech. Her research interests lie at the intersection of urban planning, transportation, public health, and data science. She is particularly interested in addressing urban weather extremes (e.g., heatwaves, flooding, wildfires) to help build resilient and equitable cities. Her previous work involves leveraging geospatial data analysis and advanced machine learning techniques to drive evidence-based solutions for sustainable urban development and environmental planning. Yuhan received her bachelor and master degrees in landscape architecture from Southeast University, China. Before joining Tech, she also worked as a research assistant in the Department of Urban Planning and Design at the University of Hong Kong.',
 			image: '/team-member/yuhan.jpg',
 			linkedin: 'https://www.linkedin.com/in/yuhan-xu-0127b5314/',
 			github: 'https://github.com/Sealxuyh',
@@ -66,7 +66,7 @@ const teamData = {
 		},
 		{
 			name: 'Changmin Seok',
-			bio: 'Changmin is a second-year master student in city and regional planning.His research focuses on transportation economics and economic development in emerging cities of the Global South.Before joining Tech, Changmin was a loan officer at the Export- Import Bank of Korea, where he focused on deploying feasibility studies and due diligence for infrastructure projects in the developing countries.',
+			bio: 'Changmin is a second-year master student in city and regional planning.His research focuses on transportation economics and economic development in emerging cities of the Global South. Before joining Tech, Changmin was a loan officer at the Export- Import Bank of Korea, where he focused on deploying feasibility studies and due diligence for infrastructure projects in the developing countries.',
 			position: 'Graduate Research Assistant',
 			image: '/team-member/changminseok.jpg',
 			linkedin: 'www.linkedin.com/in/changmin-seok-63a782b1',
