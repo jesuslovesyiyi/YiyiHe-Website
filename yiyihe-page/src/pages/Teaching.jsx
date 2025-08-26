@@ -38,7 +38,7 @@ const courses = [
 		description:
 			[
 				'The PhD Foundations Seminar seeks to provide an opportunity for incoming doctoral students to develop a plan of study, Prepare for research and teaching roles, and examine the ethical issues of responsible conduct of research.',
-				'[Fall 2025](https://www.notion.so/Fall-2025-PhD-Foundations-Seminar-CP-8012-1fea6d2c9012802888e0cb3af2dbadf6?pvs=4)',
+				'[Fall 2025](https://scarlet-donkey-f1a.notion.site/CP-8012-PhD-Foundations-Seminar-2025-Fall-254a6d2c901280f9814cdb6aa6025861?source=copy_link)',
 			],
 		image: '/teaching/foundations.avif',
 
@@ -49,7 +49,7 @@ const courses = [
 		description:
 			[
 				'This course is designed to introduce PhD students to professional skills associated with academic research and teaching. Each academic year, the seminar is composed of a scholarly speakers series in the Fall semester and a rotating professional skills module in the Spring semester. The professional skills topics include: 1) university level teaching skills; 2) grant proposal writing and budget development; and 3) manuscript development and peer review.',
-				'[Fall 2025](https://www.notion.so/Fall-2025-PhD-Research-Seminar-Pedagogy-CP-8022-200a6d2c901280aaa4e3c1b10afd4301?source=copy_link)',
+				'[Fall 2025](https://scarlet-donkey-f1a.notion.site/CP-8022-PhD-Fall-Speaker-Series-2025-253a6d2c901280b3b96ceafc20aa28a5)',
 			],
 		image: '/teaching/moons.jpg',
 
