@@ -4,6 +4,11 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 const newsData = [
 	{
+		title: 'Yiyi SCoRE fellow',
+		date: '2025/08/26',
+		description: 'Yiyi selected as one of six [SCoRE Community-Engaged Sustainability Research Faculty Fellows](https://www.scre.research.gatech.edu/faculty-fellows) for the 2025–26 academic year.',
+	},
+	{
 		title: 'Yiyi book chapter',
 		date: '2025/07/02',
 		description: 'Yiyi published a book chapter titled [From Vulnerability to Resilience Rethinking Urban Transportation in a Changing Climate](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003503262-22/vulnerability-resilience-yiyi?context=ubx&refId=88f361e3-2bab-470e-983f-81a724bf02f5) in [Urban Human Mobility](https://www.taylorfrancis.com/books/edit/10.1201/9781003503262/urban-human-mobility-xiao-huang-xinyue-ye-kathleen-stewart-subasish-das?refId=193824a8-85a9-465c-9806-0f353057a749&context=ubx).',
