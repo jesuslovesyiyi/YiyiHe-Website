@@ -641,6 +641,15 @@ h2 {
   margin: 0;
 }
 
+
+.research-toc ul,
+.research-toc ol,
+.research-toc .toc-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .research-toc li {
   margin-bottom: 1rem;
   cursor: pointer;
