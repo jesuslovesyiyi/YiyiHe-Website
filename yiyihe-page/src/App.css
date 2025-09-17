@@ -622,6 +622,8 @@ h2 {
   text-decoration: none;
   transition: color 0.3s ease;
   cursor: pointer;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .research-toc li.active a {
@@ -651,10 +653,12 @@ h2 {
 }
 
 .research-toc li {
-  margin-bottom: 1rem;
+  display: flex;
   cursor: pointer;
   color: var(--black-hex);
   transition: color 0.3s ease;
+  align-items: center !important;
+  min-height: 3rem !important;
 }
 
 .research-toc li:hover {
@@ -664,6 +668,12 @@ h2 {
 .research-toc li.active {
   font-weight: bold;
   color: var(--secondary-color);
+}
+
+
+.research-toc .toc-link::before,
+.research-toc .is-active-link::before {
+  height: 3rem !important;
 }
 
 /* ===== Research Layout with TOC ===== */
@@ -686,6 +696,7 @@ h2 {
   scroll-margin-top: 6rem;
   margin-bottom: 4rem;
   margin-right: 6rem;
+
 }
 
 .research-block-title {
