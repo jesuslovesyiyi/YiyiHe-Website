@@ -4,6 +4,11 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 const newsData = [
 	{
+		title: 'Yuhan Qian Xue Sen gold award',
+		date: '2025/09/23',
+		description: 'Yuhan received the Qian Xuesen City Science (Environment) Gold Award Nomination Prize for her research paper “Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations”.',
+	},
+	{
 		title: 'Yiyi SCoRE fellow',
 		date: '2025/08/26',
 		description: 'Yiyi selected as one of six [SCoRE Community-Engaged Sustainability Research Faculty Fellows](https://www.scre.research.gatech.edu/faculty-fellows) for the 2025–26 academic year.',
