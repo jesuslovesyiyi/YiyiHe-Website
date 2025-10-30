@@ -145,8 +145,7 @@ a:hover {
   transition: padding 140ms ease-in-out !important;
   justify-content: space-between !important;
   align-items: center;
-  /* padding: 1rem 2rem; */
-  padding: 1rem;
+  padding: 0 rem !important;
   background-color: hsla(var(--darkAccent-hsl), 0.6) !important;
   font-family: var(--heading-font-font-family) !important;
   box-shadow: none !important;
@@ -164,27 +163,51 @@ a:hover {
   .navbar-container {
     position: sticky;
     /* top: 1rem; */
-    padding: 0%;
+    padding: 0% !important;
     /* z-index: 1000; */
     background-color: hsla(var(--darkAccent-hsl), 0.6);
     transition: none;
     width: 100% !important;
+
   }
 }
 
-/* for ipad mobile  */
-@media (max-width: 1024px) {
-  .navbar-container {
-    position: sticky;
-    /* top: 1rem; */
-    padding: 0%;
-    /* z-index: 1000; */
-    background-color: hsla(var(--darkAccent-hsl), 0.6);
-    transition: none;
-    width: 100%;
-  }
+/* ===== Mobile Navbar Styles ===== */
+.navbar-mobile-hamburger {
+  margin-right: 1rem;
 }
 
+.navbar-mobile-burger {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: block;
+}
+
+.navbar-mobile-close {
+  font-size: 1.75rem;
+  /* font-weight: bold; */
+  line-height: 1;
+  display: block;
+}
+
+.navbar-mobile-drawer {
+  max-width: 20rem !important;
+  background: #fff;
+  /* background: hsla(var(--darkAccent-hsl), 0.6) !important; */
+}
+
+.navbar-mobile-list {
+  padding: 0;
+}
+
+.navbar-mobile-listitem {
+  padding: 1rem 2rem;
+}
+
+.navbar-mobile-listtext {
+  /* font-size: 1.2rem; */
+  text-align: left;
+}
 
 /* ===== Footer Styles ===== */
 .footer {
@@ -322,6 +345,7 @@ h2 {
 
 .tweak-fixed-header {
   transition: padding 140ms ease-in-out;
+  padding: 0 rem !important;
 }
 
 .button {
