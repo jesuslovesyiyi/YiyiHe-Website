@@ -40,6 +40,7 @@
   --secondary-color: #4747D4;
   --tertiary-color: #8080FF;
   --quaternary-color: #0E0E55;
+  --indigo: #00416a;
   /* highlight color */
   --coral: #FF7F50;
   --cool-grey: #9c9c9c;
@@ -191,7 +192,7 @@ a:hover {
 }
 
 .navbar-mobile-drawer {
-  max-width: 20rem !important;
+  max-width: 40 rem !important;
   background: #fff;
   /* background: hsla(var(--darkAccent-hsl), 0.6) !important; */
 }

@@ -32,7 +32,7 @@ const NavbarMobile = () => {
 						{open ? (
 							<span className="navbar-mobile-close">&times;</span>
 						) : (
-							<img src="/burger.ico" alt="menu" className="navbar-mobile-burger" />
+							<img src="/menu.ico" alt="menu" className="navbar-mobile-burger" />
 						)}
 					</IconButton>
 				</Toolbar>
