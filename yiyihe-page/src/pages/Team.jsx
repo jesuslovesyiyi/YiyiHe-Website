@@ -58,7 +58,7 @@ const teamData = {
 		{
 			name: 'Tara Liu',
 			position: 'Graduate Research Assistant',
-			bio: 'Tara(pronouns: they/them) graduated in May 2025 with a master degree in computational science. They are interested in empowering the marginalized communities with technology and have 10+ industry experience. They enjoy nature and metal music in free time. Fun fact: Taco cat spelled backward is taco cat.',
+			bio: 'Tara (pronouns: they/them) graduated in May 2025 with a masters degree in computational science, with a Lavender Diploma and AI safety fellowship. They currently work as a system administrator in an NGO. Their interest lies in computing for social good, applying data science to challenges in public transit, climate change, and optimization through 5+ years of experience across industry and academia. They believe that technology should empower and unite marginalized communities, rather than reinforce systemic oppression. They are a transgender, aromantic asexual queer person, also the developer of this website. Fun fact: Taco cat spelled backward is taco cat.',
 			image: '/team-member/taraliu.jpg',
 			linkedin: 'https://www.linkedin.com/in/tara-tingyu-liu/',
 			github: 'https://github.com/drunk3nb0at',
@@ -66,7 +66,7 @@ const teamData = {
 		},
 		{
 			name: 'Changmin Seok',
-			bio: 'Changmin is a second-year master student in city and regional planning.His research focuses on transportation economics and economic development in emerging cities of the Global South. Before joining Tech, Changmin was a loan officer at the Export- Import Bank of Korea, where he focused on deploying feasibility studies and due diligence for infrastructure projects in the developing countries.',
+			bio: 'Changmin is a second-year master student in city and regional planning. His research focuses on transportation economics and economic development in emerging cities of the Global South. Before joining Tech, Changmin was a loan officer at the Export- Import Bank of Korea, where he focused on deploying feasibility studies and due diligence for infrastructure projects in the developing countries.',
 			position: 'Graduate Research Assistant',
 			image: '/team-member/changminseok.jpg',
 			linkedin: 'www.linkedin.com/in/changmin-seok-63a782b1',
