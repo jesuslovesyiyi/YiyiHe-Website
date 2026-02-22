@@ -4,6 +4,11 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 const newsData = [
 	{
+		title: 'Yiyi BBIS panel',
+		date: '2026/02/10',
+		description: 'Yiyi served as a panelist at the [BBISS Sustainability Showcase 2026](https://sustainablesystems.gatech.edu/engagement/showcase) on “The Role of Geospatial Technologies and AI in Advancing Resilient Urban Futures.”',
+	},
+	{
 		title: 'Yuhan Qian Xue Sen gold award',
 		date: '2025/09/23',
 		description: 'Yuhan received the Qian Xuesen City Science (Environment) Gold Award Nomination Prize for her research paper “Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations”.',
