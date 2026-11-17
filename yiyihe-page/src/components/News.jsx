@@ -6,7 +6,7 @@ const newsData = [
 	{
 		title: 'Yiyi BBIS panel',
 		date: '2026/02/10',
-		description: 'Yiyi served as a panelist at the [BBISS Sustainability Showcase 2026](https://sustainablesystems.gatech.edu/engagement/showcase) on “The Role of Geospatial Technologies and AI in Advancing Resilient Urban Futures.”',
+		description: 'Yiyi served as a panelist at the [BBISS Sustainability Showcase 2026](https://sustainablesystems.gatech.edu/engagement/showcase) on “The Role of Geospatial Technologies and AI in Advancing Resilient Urban Futures”.',
 	},
 	{
 		title: 'Yuhan Qian Xue Sen gold award',
